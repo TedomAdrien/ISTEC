@@ -163,7 +163,7 @@
               </div>
               <div class="col-md-4 probootstrap-back-to-top">
                 <p><a href="#" class="js-backtotop"><i class="icon-arrow-long-up" style="color:#f4a105; background-color:white;padding:10px"></i></a></p>
-                <p>Réalisé par <a href="mailto:blaker_genius@gmail.com">blaker_genius@gmail.com</a></p>
+                <p>Réalisé par <a href="mailto:blakergenius@gmail.com">blakergenius@gmail.com</a></p>
               </div>
             </div>
           </div>
