@@ -19,7 +19,6 @@
 <div class="wrap-login100" style="height: 850px; width: 1200px; margin:auto;">
 <div class="login100-form validate-form p-l-55 p-r-55 p-t-178">
 <form class="row g-3"  method="POST" action ="{{route('users.store')}}" class="was-validated" >
-  dd('fin')
   @csrf
     <h2 style="text-align:center; padding-bottom: 16px; padding-top: -16px;"> <u> Etape1:</u> <span>Informations personnels</span> </h2>
 <div class="col-md-6">
