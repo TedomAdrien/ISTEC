@@ -17,6 +17,12 @@
     <link rel="stylesheet" href="{{ asset('css/style.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
 
+    <link rel="stylesheet" href="{{ asset('css/css/util.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/css/main.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/css/select2.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/css/ animsition.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/css/daterangepicker.css') }}">
+
     <!--[if lt IE 9]>
       <script src="js/vendor/html5shiv.min.js"></script>
       <script src="js/vendor/respond.min.js"></script>
@@ -163,7 +169,7 @@
               </div>
               <div class="col-md-4 probootstrap-back-to-top">
                 <p><a href="#" class="js-backtotop"><i class="icon-arrow-long-up" style="color:#f4a105; background-color:white;padding:10px"></i></a></p>
-                <p>Réalisé par <a href="mailto:blakergenius@gmail.com">blakergenius@gmail.com</a></p>
+                <p>Réalisé par <a href="mailto:blakergenius9@gmail.com">blakergenius9@gmail.com</a></p>
               </div>
             </div>
           </div>
