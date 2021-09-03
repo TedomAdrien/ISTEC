@@ -404,4 +404,4 @@ Route::get('/contact', [ContactController::class, 'index']);
 
 //route module inscrition frontend
 
-Route::post('',[StudentreRegController::class,'userstore'])->name('users.store');
+Route::post('',[StudentreRegController::class,'userstore'])->name('add.user');
