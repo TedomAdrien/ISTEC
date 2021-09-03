@@ -4,14 +4,22 @@
 @endpush
 
 @section('content')
-<div class="limiter">
-<div class="container-login100">
+<section class="probootstrap-section probootstrap-section-colored">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-left section-heading probootstrap-animate">
+            <h1 class="login100-form-title">Pré-inscription de L'ISTEC</h1> 
+
+            </div>
+          </div>
+        </div>
+      </section>
+<!-- <div class="limiter">
+<div class="container-login100"> -->
 {{-- <div class="wrap-login100" style="height: 850px; width: 1200px;"> --}}
 <div class="login100-form validate-form p-l-55 p-r-55 p-t-178">
-<span class="login100-form-title">
-Pré-inscription de L'ISTEC
-</span>
 <form class="row g-3"  method="POST" action ="{{route('add.user')}}" class="was-validated" >
+
 
   @csrf
 
@@ -37,6 +45,13 @@ Pré-inscription de L'ISTEC
     <label for="inputEmail4" class="form-label">Email <span style="color: red;" title="champ obligatoire" >*</span></label>
     <input type="email" class="form-control" id="inputEmail4" name="email">
     @error('email')
+    <span class="text-danger">{{ $message }}</span>
+ @enderror
+  </div>
+  <div class="col-md-6">
+    <label for="inputNoCNI" class="form-label">Numero CNI <span style="color: red;" title="champ obligatoire" >*</span></label>
+    <input type="text" class="form-control" id="inputNoCNI" name="NoCNI" >
+    @error('NoCNI')
     <span class="text-danger">{{ $message }}</span>
  @enderror
   </div>
@@ -76,14 +91,6 @@ Pré-inscription de L'ISTEC
     <span class="text-danger">{{ $message }}</span>
  @enderror
   </div>
-<div class="col-md-6">
-    <label for="inputdepartment " class="form-label"> Departement</label>
-    <input  type="text" id="inputdepartment" class="form-control" name="departement">
-    @error('departement')
-    <span class="text-danger">{{ $message }}</span>
- @enderror
-  </div>
-
   <div class="col-md-6">
 						<label for="genre">Genre<span style="color: red;" title="champ obligatoire">*</span></label>
 						<div>
@@ -143,6 +150,13 @@ Pré-inscription de L'ISTEC
       <option value="Licence">Licence</option>
     </select>
     @error('cycle')
+    <span class="text-danger">{{ $message }}</span>
+ @enderror
+  </div>
+  <div class="col-md-6">
+    <label for="inputniveau" class="form-label">Niveau<span style="color: red;" title="champ obligatoire" >*</span></label>
+        <input type="text" class="form-control" id="inputniveau" name="niveau">
+    @error('specialités')
     <span class="text-danger">{{ $message }}</span>
  @enderror
   </div>
@@ -394,21 +408,10 @@ Suivant
       <input type="text" class="form-control" id="inputname" name="name_parent" >
     </div>
     <div class="col-md-12">
-      <label for="inputlastname" class="form-label">Prenom</label>
-      <input type="text" class="form-control" id="inputlastname" name="lastname_parent">
-    </div>
-    <div class="col-md-12">
-      <label for="inputEmail4" class="form-label">Email</label>
-      <input type="email" class="form-control" id="inputEmail4" name="email_parent">
-    </div>
-    <div class="col-md-12">
       <label for="ville_residence " class="form-label"> Ville de residence </label>
       <input  type="text" id="ville_residence" class="form-control" name="ville_resid_parent">
   </div>
-  <div class="col-md-12">
-      <label for="profpere " class="form-label">Profession</label>
-      <input  type="text" id="profpere" class="form-control" name="profession_parent">
-  </div>
+
   <div class="col-md-12">
     <label for="telephone " class="form-label">Telephone<span style="color: red;" title="champ obligatoire" >*</span></label>
     <input  type="text" id="telephone" class="form-control" placeholder="+XXX XXXXXXXXX" name="telephone_parent">
@@ -424,21 +427,10 @@ Suivant
       <input type="text" class="form-control" id="name" name="name_autre">
     </div>
     <div class="col-md-6">
-      <label for="inputlastname" class="form-label">Prenom</label>
-      <input type="text" class="form-control"id="lastname" name="lastname_autre">
-    </div>
-    <div class="col-md-6">
-      <label for="inputEmail4" class="form-label">Email</label>
-      <input type="email" class="form-control" id="inputEmail4" name="email_autre">
-    </div>
-    <div class="col-md-6">
       <label for="ville_residence " class="form-label"> Ville de residence </label>
       <input  type="text" id="ville_residence" class="form-control" name="ville_resid_autre">
   </div>
-  <div class="col-md-6">
-      <label for="profpere " class="form-label">Profession</label>
-      <input  type="text" id="profpere" class="form-control" name="profession_autre">
-  </div>
+ 
   <div class="col-md-6">
     <label for="telephone " class="form-label">Telephone<span style="color: red;" title="champ obligatoire" >*</span></label>
     <input  type="text" id="telephone" class="form-control" placeholder="+XXX XXXXXXXXX" name="telephone_autre">
