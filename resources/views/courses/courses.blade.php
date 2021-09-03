@@ -41,7 +41,7 @@
               <div class="probootstrap-service-2 probootstrap-animate">
                 <div class="image">
                   <div class="image-bg" style="height:354px ; width: 165px">
-                    <img src="{{ asset('images/images_formations/l.jpeg') }}" style="width: 100%; height: 100%; ">
+                    <img src="{{ asset('images/images_formations/GLT.jpg') }}" style="width: 100%; height: 100%; ">
                   </div>
                 </div>
                 <div class="text">
@@ -85,7 +85,7 @@
               <div class="probootstrap-service-2 probootstrap-animate">
                 <div class="image">
                   <div class="image-bg" style="height:354px ; width: 165px">
-                    <img src="{{ asset('images/images_formations/k.jpeg') }}" style="width: 100%; height: 100%; ">
+                    <img src="{{ asset('images/images_formations/électronique.jpg') }}" style="width: 100%; height: 100%; ">
                   </div>
                 </div>
                 <div class="text">
@@ -104,12 +104,12 @@
               <div class="probootstrap-service-2 probootstrap-animate">
                 <div class="image">
                   <div class="image-bg" style="height:354px ; width: 165px">
-                    <img src="{{ asset('images/images_formations/a.jpg') }}" style="width: 100%; height: 100%; ">
+                    <img src="{{ asset('images/images_formations/accounting.jpg') }}" style="width: 100%; height: 100%; ">
                   </div>
                 </div>
                 <div class="text">
                   <span class="probootstrap-meta"><i class="icon-calendar2"></i> September 06, 2021</span>
-                  <h3>Accounting</h3>
+                  <h3>Management</h3>
                   <p>Professionals who are going to pursue careers in areas of investment analysis and management, banking, and auditing, consulting and financial management.</p>
                   <p><a href="/inscription" class="btn btn-primary">s'inscrire</a> <span class="enrolled-count">2,928 étudiants inscrits</span></p>
                 </div>
@@ -118,7 +118,7 @@
               <div class="probootstrap-service-2 probootstrap-animate">
                 <div class="image">
                   <div class="image-bg" style="height:354px ; width: 165px">
-                    <img src="{{ asset('images/images_formations/l.jpeg') }}" style="width: 100%; height: 100%; ">
+                    <img src="{{ asset('images/images_formations/batiment.jpg') }}" style="width: 100%; height: 100%; ">
                   </div>
                 </div>
                 <div class="text">
@@ -134,7 +134,7 @@
               <div class="probootstrap-service-2 probootstrap-animate">
                 <div class="image">
                   <div class="image-bg" style="height:354px ; width: 165px">
-                    <img src="{{ asset('images/images_formations/h.jpg') }}" style="width: 100%; height: 100%; ">
+                    <img src="{{ asset('images/images_formations/gestion.jpg') }}" style="width: 100%; height: 100%; ">
                   </div>
                 </div>
                 <div class="text">
@@ -148,7 +148,7 @@
               <div class="probootstrap-service-2 probootstrap-animate">
                 <div class="image">
                   <div class="image-bg" style="height:354px ; width: 165px">
-                    <img src="{{ asset('images/images_formations/k.jpeg') }}" style="width: 100%; height: 100%; ">
+                    <img src="{{ asset('images/images_formations/topo.jpg') }}" style="width: 100%; height: 100%; ">
                   </div>
                 </div>
                 <div class="text">
