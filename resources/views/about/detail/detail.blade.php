@@ -6,7 +6,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-left section-heading probootstrap-animate">
-              <h1>A propos de ISTEC</h1>
+              <h1>A propos de L'ISTEC</h1>
             </div>
           </div>
         </div>

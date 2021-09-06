@@ -14,8 +14,7 @@
           </div>
         </div>
       </section>
-<!-- <div class="limiter">
-<div class="container-login100"> -->
+
 {{-- <div class="wrap-login100" style="height: 850px; width: 1200px;"> --}}
 <div class="login100-form validate-form p-l-55 p-r-55 p-t-178">
 <form class="row g-3"  method="POST" action ="{{route('add.user')}}" class="was-validated" >
