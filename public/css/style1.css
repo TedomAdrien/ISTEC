@@ -1,0 +1,14 @@
+.Gallery{
+	margin:10px 50px;
+}
+
+.Gallery img{
+	transition: 1s;
+	padding: 15px;
+
+}
+
+img:hover {
+	filter: brightness(100%);
+	transform: scale(1.3);
+}

@@ -1,0 +1,326 @@
+                                    .j_img_radius {
+                                        height: 100%;
+                                        width: 100%;
+                                        border-radius: 100px 5px 100px 5px;
+                                    }
+                                    
+                                    .juni .j_white {
+                                        color: rgba(255, 0, 0, 0.658);
+                                        font-family: "algerian";
+                                        font-size: 2.5em;
+                                        text-decoration: underline;
+                                    }
+                                    
+                                    .j_block_flot {
+                                        position: absolute;
+                                        bottom: 35%;
+                                        font-weight: bold;
+                                        width: 100%;
+                                        text-align: center;
+                                    }
+                                    
+                                    .j_ablock_relative {
+                                        display: inline-block;
+                                        position: relative;
+                                        border-radius: 100px 5px 100px 5px;
+                                        border-radius: 20px;
+                                    }
+                                    
+                                    .juni i {
+                                        background-color: white;
+                                        padding: 20px;
+                                        border-radius: 50px;
+                                        color: rgba(255, 0, 0, 0.918);
+                                    }
+                                    
+                                    .j_flex {
+                                        display: flex;
+                                        justify-content: space-evenly;
+                                        flex-wrap: wrap;
+                                        background-color: transparent;
+                                    }
+                                    
+                                    .j_flex_content {
+                                        background-color: transparent;
+                                        width: 400px;
+                                        border-radius: 100px 5px 100px 5px;
+                                        cursor: pointer;
+                                        box-shadow: -20px 20px 20px black;
+                                        margin: 50px 0;
+                                        transition-duration: 1s;
+                                    }
+                                    
+                                    .j_flex_content:hover {
+                                        opacity: 0.8;
+                                        box-shadow: 20px 20px 20px black;
+                                    }
+                                    
+                                    .juni .j_flex_content:hover i {
+                                        background-color: rgba(40, 46, 57, 0.7);
+                                        color: rgba(0, 255, 0, 0.74);
+                                        transition-duration: 1s;
+                                    }
+                                    
+                                    .center {
+                                        text-align: center;
+                                    }
+                                    
+                                    .j_block_sec {
+                                        font-size: 2em;
+                                        color: white;
+                                        transition-duration: 2s;
+                                        background-color: transparent;
+                                    }
+                                    
+                                    .juni .j_block_sec:hover h3 {
+                                        color: green;
+                                        transition-duration: 1s;
+                                    }
+                                    
+                                    .j_radius_reverse {
+                                        border-radius: 5px 100px 5px 100px;
+                                        box-shadow: 10px 10px 20px black;
+                                    }
+                                    
+                                    .j_radius_reverse:hover {
+                                        box-shadow: -10px 10px 20px black;
+                                    }
+                                    /**mon block porteur**/
+                                    
+                                    .porteur {
+                                        display: flex;
+                                        justify-content: space-evenly;
+                                        flex-wrap: wrap;
+                                        align-items: flex-start;
+                                        flex-direction: row;
+                                        margin: 20px;
+                                    }
+                                    /* The container <div> - needed to position the dropdown content */
+                                    
+                                    .juni .dropdown {
+                                        position: relative;
+                                        margin: 10px;
+                                        height: auto;
+                                    }
+                                    /* Style The Dropdown Button */
+                                    
+                                    .dropdown .dropbtn {
+                                        background-color: #8475ad;
+                                        color: white;
+                                        border-radius: 100px;
+                                        font-size: 16px;
+                                        width: 200px;
+                                        height: 200px;
+                                        border: 3px dashed red;
+                                        cursor: pointer;
+                                        margin-right: 5px;
+                                        position: relative;
+                                        left: 0;
+                                        transition: width 2s, left 2s, height 2s, background-color 2s, transform 2s;
+                                    }
+                                    /* Dropdown Content (Hidden by Default) */
+                                    
+                                    .dropdown-content {
+                                        display: block;
+                                        width: 300px;
+                                        text-align: center;
+                                        background-color: #f9f9f9;
+                                        min-width: 100px;
+                                        box-shadow: 0px 16px 16px 0px rgba(0, 0, 0, 0.486);
+                                    }
+                                    /* Links inside the dropdown */
+                                    
+                                    .dropdown-content a {
+                                        color: black;
+                                        padding: 12px 16px;
+                                        text-decoration: none;
+                                        display: block;
+                                        border-bottom: 1px solid black;
+                                        font-weight: bold;
+                                    }
+                                    /* Change color of dropdown links on hover */
+                                    
+                                    .dropdown-content a:hover {
+                                        background-color: #aaa1a1;
+                                    }
+                                    
+                                    .dropdown-content:hover {
+                                        border: 3px dashed red;
+                                    }
+                                    /* Show the dropdown menu on hover */
+                                    
+                                    .dropdown:hover .dropdown-content {
+                                        display: block;
+                                    }
+                                    /* Change the background color of the dropdown button when the dropdown content is shown */
+                                    
+                                    .dropdown:hover .dropbtn {
+                                        background-color: #fff;
+                                        color: red;
+                                        font-weight: bold;
+                                        position: relative;
+                                        left: 160px;
+                                        border-color: rgb(0, 255, 0);
+                                        transform: rotate(180deg);
+                                    }
+                                    
+                                    .dropdown:hover button i {
+                                        background-color: #8475ad;
+                                    }
+                                    /**responsive des bulle**/
+                                    
+                                    @media all and (max-width: 700px) {
+                                        .porteur {
+                                            justify-content: center;
+                                        }
+                                    }
+                                    /**block pour la description des filieres**/
+                                    
+                                    .j_red {
+                                        color: rgb(255, 0, 0);
+                                        font-family: "algerian";
+                                        font-size: 2em;
+                                        text-decoration: underline;
+                                    }
+                                    
+                                    .bk_desc {
+                                        display: flex;
+                                        justify-content: space-between;
+                                        position: relative;
+                                        align-items: center;
+                                        flex-wrap: wrap;
+                                        align-items: flex-start;
+                                        flex-wrap: wrap;
+                                        color: rgba(0, 0, 0, 0.92);
+                                        align-items: center;
+                                    }
+                                    
+                                    .items1 {
+                                        flex: 2;
+                                        padding: 20px;
+                                        font-size: 0.855em;
+                                    }
+                                    
+                                    .items2 {
+                                        flex: 1;
+                                        text-align: left;
+                                        align-self: center;
+                                    }
+                                    /**responsive**/
+                                    
+                                    .items2 div {
+                                        border-radius: 0 30px 30px 30px;
+                                        text-align: left;
+                                        margin-bottom: 20px;
+                                        box-shadow: -6px 6px 16px black;
+                                    }
+                                    
+                                    .items2 div h2 {
+                                        font-size: 1.5em;
+                                    }
+                                    
+                                    .items2 div a {
+                                        display: block;
+                                        text-decoration: none;
+                                        color: #6a41ed;
+                                        font: 1.3em bold;
+                                        text-align: center;
+                                        margin: 5px 0;
+                                        background-color: #aaa1a11f;
+                                    }
+                                    
+                                    .items2 div a:hover {
+                                        text-decoration: underline;
+                                        color: #fff;
+                                        background-color: rgb(0, 255, 0);
+                                    }
+                                    
+                                    .block_informations {
+                                        margin: auto;
+                                        margin-bottom: 30px;
+                                    }
+                                    
+                                    .block_informations h2 {
+                                        background-color: rgba(0, 255, 255, 0.123);
+                                        font-size: 1.8em;
+                                        font-family: "serif";
+                                        border-top-right-radius: 30px;
+                                    }
+                                    
+                                    .block_informations p,
+                                    .block_informations ol,
+                                    .block_informations ul {
+                                        font-size: 1.3em;
+                                        text-align: justify;
+                                        padding: 10px 50px;
+                                    }
+                                    
+                                    .sous_block_informations,
+                                    .dossier_inscription {
+                                        font-size: 1.3em;
+                                        text-align: justify;
+                                        border-radius: 0 30px 30px 30px;
+                                    }
+                                    
+                                    .block_informations ul {
+                                        list-style-type: circle;
+                                    }
+                                    
+                                    .block_informations ol {
+                                        list-style-type: square;
+                                    }
+                                    
+                                    .dossier_inscription h2 {
+                                        background-color: transparent;
+                                    }
+                                    
+                                    .sous_block_informations span {
+                                        color: red;
+                                    }
+                                    
+                                    .dossier_inscription {
+                                        border: 4px dashed #6a41ed;
+                                        border-radius: 30px;
+                                        padding-bottom: 20px;
+                                        box-shadow: -16px 16px 16px black;
+                                        margin-bottom: 30px;
+                                        width: 80%;
+                                        margin: auto;
+                                    }
+                                    
+                                    .dossier_inscription a {
+                                        display: block;
+                                        width: 200px;
+                                        border-radius: 10px;
+                                        padding: 15px 0;
+                                        color: white;
+                                        text-align: center;
+                                        margin: auto;
+                                        background-color: red;
+                                        text-decoration: none;
+                                        font: 1.5em bold;
+                                        box-shadow: -6px -6px 6px black;
+                                        transition-duration: 1s;
+                                    }
+                                    
+                                    .dossier_inscription a:hover {
+                                        color: white;
+                                        background-color: rgb(0, 255, 0);
+                                    }
+                                    
+                                    @media all and (max-width: 700px) {
+                                        .items1 {
+                                            flex: 1;
+                                        }
+                                        .items2 {
+                                            flex: 1;
+                                        }
+                                        .j_red {
+                                            font-size: 1em;
+                                        }
+                                        .dossier_inscription {
+                                            width: 90%;
+                                        }
+                                    }
+
+                                    
