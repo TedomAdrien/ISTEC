@@ -541,11 +541,11 @@
                                     <img src="{{ asset('images/home-images/romuald.jpg') }}"
                                         style="width: 100%; height: 100%;">
                                 </figure>
-                                <quote class="quote">&ldquo;... j'ai acquis beaucoup de compétences dans le domaine de
+                                <quote class="quote">&ldquo;... J'ai acquis beaucoup de compétences dans le domaine de
                                     l'entrepreunariat et du developpement web a l'ISTEC.je suis euphorique car je peux deja
-                                    voler de mes propres ailles dans multiples dommaines,je remercie sur le cadre
-                                    administratifs et les enseignants de nous avoir donnes le meilleur de l'enseignement
-                                    tout le long de mon apprenstissage. merci l'ISTEC &rdquo; <br> <cite class="author">
+                                    voler de mes propres ailes dans multiples dommaines,je remercie sur le cadre
+                                    administratifs et les enseignants de nous avoir donne le meilleur de l'enseignement
+                                    tout le long de mon apprenstissage. Merci l'ISTEC &rdquo; <br> <cite class="author">
                                         &mdash; <span>Touko Romuald</span></cite></quote>
 
                             </div>
@@ -560,7 +560,7 @@
                                 <quote class="quote">&ldquo;J’ai obtenu beaucoup de bagages intellectuels dans le domaine du
                                     developpement web a l'ISTEC. Ainsi, je me sens compétent pour apporter mon aide à la
                                     professionnalisation des industries de technologie.Nous avons eu la chance d’avoir des
-                                    enseignants qualifié qui nous ont tenus durant notre periode d'études. Une expérience
+                                    enseignants qualifiés qui nous ont tenu durant notre periode d'études. Une expérience
                                     inoubliable. &rdquo; <br> <cite class="author"> &mdash;<span>Tedom Adrien</span></cite>
                                 </quote>
 
@@ -573,9 +573,9 @@
                                     <img src="{{ asset('images/images_formations/juni1.jpg') }}"
                                         style="width: 100%; height: 100%;">
                                 </figure>
-                                <quote class="quote">&ldquo;Les professeurs d'ISTEC m'ont aidés à améliorer mes compétences
+                                <quote class="quote">&ldquo;Les professeurs d'ISTEC m'ont aidé à améliorer mes compétences
                                     et à développer une certaine autonomie dans l'apprentissage.Cette université n'est peut
-                                    etre pas parfaite mais grace à elle, j'ai maintenant confiance en mes compétences et
+                                    être pas parfaite mais grâce à elle, j'ai maintenant confiance en mes compétences et
                                     qualités de programmeur/développeur ! (^_^).
                                     &rdquo; <br> <cite class="author">&mdash; <span>Junior Ledoux</span></cite></quote>
                             </div>

@@ -410,5 +410,5 @@ Route::get('/course_singles', [CourseSingleController::class, 'index']);
 
 //route module inscrition frontend
 
-Route::post('',[StudentreRegController::class,'userstore'])->name('add.user');
+Route::post('',[StudentreRegController::class,'userstore'])->name('add.student');
 
