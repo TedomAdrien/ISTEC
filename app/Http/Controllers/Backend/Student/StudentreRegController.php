@@ -6,18 +6,21 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\AssignStudent;
 use App\Models\User;
-use DB;
+use Illuminate\Support\Facades\DB as DB;
 
 class StudentreRegController extends Controller
 {
     //
-    public function userstore(Request $request){
-        DB::transaction(function() use($request){
+    public function userstore(Request $request)
+    {
+        dd('here');
+        DB::transaction(function () use ($request) {
             //'email' => 'required|unique:users',
             //'name' => 'required',
         });
 
         $user = new User();
+
         $user -> name = $request -> name;
         $user ->lastname  = $request -> lastname;
         $user ->email  = $request -> email;
@@ -56,5 +59,6 @@ class StudentreRegController extends Controller
         
         
     }
+
 
 }
