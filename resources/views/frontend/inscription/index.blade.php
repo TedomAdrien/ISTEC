@@ -8,7 +8,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-left section-heading probootstrap-animate">
-            <h1 class="login100-form-title">Pré-inscription de L'ISTEC</h1> 
+            <h1 class="login100-form-title">Pré-inscription de L'ISTEC</h1>
 
             </div>
           </div>
@@ -430,7 +430,7 @@ Suivant
       <label for="ville_residence " class="form-label"> Ville de residence </label>
       <input  type="text" id="ville_residence" class="form-control" name="ville_resid_autre">
   </div>
- 
+
   <div class="col-md-6">
     <label for="telephone " class="form-label">Telephone<span style="color: red;" title="champ obligatoire" >*</span></label>
     <input  type="text" id="telephone" class="form-control" placeholder="+XXX XXXXXXXXX" name="telephone_autre">
