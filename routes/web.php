@@ -15,6 +15,8 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\GaleryController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Backend\Student\StudentreRegController;
+use App\Http\Controllers\TemporyStudentController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -32,8 +34,12 @@ Route::get('/', function () {
 });
 
 // inscription
-Route::get('/inscription', function () {
-    return view('frontend.inscription.index');
+Route::prefix('/inscription')->group(function () {
+    Route::get('/', function () {
+        return view('frontend.inscription.index');
+    });
+    Route::post('/store', [TemporyStudentController::class, 'store'])->name('add.student');
+    Route::get('/pdf/{student}', [TemporyStudentController::class, 'print'])->name('print.fiche_pre_inscription');
 });
 
 Route::get('/formations', [FormationController::class, 'index']);
@@ -400,7 +406,6 @@ Route::get('/course_singles', [CourseSingleController::class, 'index']);
 
 //contact//
 Route::get('/contact', [ContactController::class, 'index']);
-
 
 //route module inscrition frontend
 
