@@ -643,33 +643,118 @@
           <!-- END row -->
         </div>
       </section> --}}
-
-    <section class="probootstrap-cta" style="background: white">
+<!-- partie des partenaires -->
+<section class="probootstrap-section probootstrap-bg probootstrap-section-colored" style="background-color:#ED0000;padding:24px; ">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <marquee loop="-1" style="display:block;" scrollamount="15" scrolldelay="15">
-                        <div class="partner" style="width: 10%; float: left;">
-                            <a href="#"><img src="{{ asset('images/image-pat/dschang.png') }}" style="width: 100%" alt="Partner Image"></a>
-                        </div>
-                        <div class="partner" style="width: 10%;float: left;">
-                            <a href="#"><img src="{{ asset('images/image-pat/cecaw.png') }}" style="width: 100%"></a>
-                        </div>
-                        <div class="partner" style="width: 10%;float: left;">
-                            <a href="#"><img src="{{ asset('images/image-pat/eneo.png') }}" alt="Partner Image" style="width: 100%"></a>
-                        </div>
-                        <div class="partner" style="width: 10%;background-color: green;float: left;">
-                            <a href="#"><img src="{{ asset('images/image-pat/tropik.png') }}" alt="Partner Image"
-                                    style="width: 100%;float: left;"> </a>
-                        </div>
-                        <div class="partner" style="width: 10% ;background-color: red; float: left;">
-                            <a href="#"><img src="{{ asset('images/image-pat/print.jpg') }}" style="width: 100%" alt="Partner Image"></a>
-                        </div>
-                    </marquee>
-                </div>
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center section-heading probootstrap-animate" >
+            
             </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-md-12 probootstrap-animate">
+              <div class="owl-carousel owl-carousel-testimony owl-carousel-fullwidth">
+
+                <div class="item" >
+                   <figure>
+                    <img src="images/image-pat/print.jpg" style="width: 50%; height: 200px;margin:auto">
+                    </figure>
+                    </div>
+                
+                <div class="item" >
+                    <figure>
+                    <img src="images/image-pat/tropik.png"  style="width: 50%; height: 200px;margin:auto">
+                    </figure>
+                    </div>
+
+                <div class="item"  >
+                   <figure>
+                    <img src="images/image-pat/eneo.png" style="width: 50%; height: 200px;margin:auto">
+                    </figure>
+                  </div>
+
+                  <div class="item" >
+                   <figure>
+                   <img src="images/image-pat/cecaw.png" style="width: 50%; height: 200px;margin:auto">
+                    </figure>
+                  </div>
+
+                  <div class="item"  >
+                   <figure>
+                   <img src="images/image-pat/dschang.png" style="width: 50%; height: 200px;margin:auto">
+                    </figure>
+                  </div>
+
+                  
+                  <div class="item" >
+                   <figure>
+                   <img src="images/image-pat/agc conseil.png" style="width: 50%; height: 200px;margin:auto">
+                    </figure>
+                  </div>
+
+                  
+                  <div class="item" >
+                   <figure>
+                   <img src="images/image-pat/CGI.png" style="width: 50%; height: 200px;margin:auto">
+                    </figure>
+                  </div>
+
+                  
+                  <div class="item" >
+                   <figure>
+                   <img src="images/image-pat/ifage.jpeg" style="width: 50%; height: 200px;margin:auto">
+                    </figure>
+                  </div>
+
+                   
+                  <div class="item" >
+                   <figure>
+                   <img src="images/image-pat/jupiner.jpg" style="width: 50%; height: 200px;margin:auto">
+                    </figure>
+                  </div>
+
+                   
+                  <div class="item" >
+                   <figure>
+                   <img src="images/image-pat/logobio_2-01.png" style="width: 50%; height: 200px;margin:auto">
+                    </figure>
+                  </div>
+
+                   
+                  <div class="item" >
+                   <figure>
+                   <img src="images/image-pat/minesup.jpg" style="width: 50%; height: 200px;margin:auto">
+                    </figure>
+                  </div>
+
+                  <div class="item" >
+                   <figure>
+                   <img src="images/image-pat/gms.png" style="width: 50%;height: 200px;margin:auto">
+                    </figure>
+                  </div>
+
+                  <div class="item" >
+                   <figure>
+                   <img src="images/image-pat/reseau ex.png" style="width: 50%;height: 200px;margin:auto">
+                    </figure>
+                  </div>
+
+                  <div class="item" >
+                   <figure>
+                   <img src="images/image-pat/logo_udo.jpg" style="width: 50%;height: 200px;margin:auto">
+                    </figure>
+                  </div>
+
+                </div>
+
+
+            </div>
+          </div>
+          
         </div>
-    </section>
+      </section>
+    <!-- fin des parties partenaires -->
 
     <section class="probootstrap-cta" style="background: #f4a105;">
         <div class="container">

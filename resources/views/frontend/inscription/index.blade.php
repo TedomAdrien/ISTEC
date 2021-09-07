@@ -21,7 +21,7 @@
         </div>
 
       </section>
-
+*
 
     </section>
 
@@ -510,7 +510,6 @@
             </form>
         </div>
     </div>
-@endsection
 
 
 @endsection
