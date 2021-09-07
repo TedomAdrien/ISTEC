@@ -1,4 +1,4 @@
-@extends('teachers.teacher1')
+@extends('teachers.teachers')
 @section('title','teacher2')
 
 @section('teachers')
@@ -29,6 +29,7 @@
                   </ul>
                   
                 </div>
+                <div class="probootstrap-image probootstrap-animate" style="background-image:url('images/images_teachers/homme.jpg')">
                 < </div>
               </div>
             </div>

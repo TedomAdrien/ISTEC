@@ -1,4 +1,4 @@
-@extends('teachers.teacher1')
+@extends('teachers.teachers')
 @section('title','teacherP')
 
 @section('teachers')

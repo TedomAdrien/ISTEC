@@ -1,4 +1,4 @@
-@extends('teachers.teacher1')
+@extends('teachers.teachers')
 @section('title','teacherP')
 
 @section('teachers')
@@ -28,7 +28,7 @@
                     <li class="google-plus"><a href="#"><i class="icon-google-plus"></i></a></li>
                   </ul>
                    </div>
-                <div class="probootstrap-image probootstrap-animate" style="background-image: url(images/image_galery/gallery21.jpg)">
+                <div class="probootstrap-image probootstrap-animate" style="background-image: url('images/images_teachers/femme.jpg')">
                   </div>
               </div>
             </div>
