@@ -23,11 +23,14 @@
       </section>
 *
 
+            </div>
+        </div>
+
     </section>
 
     <div class="container">
         <div class="login100-form validate-form p-l-55 p-r-55 p-t-178 mt-5">
-            <form class="row g-3" method="POST" action="{{ route('add.student') }}" class="was-validated">
+            <form class="row g-3" method="POST" action="{{ route('add.user') }}" class="was-validated">
                 @csrf
                 {{-- partie 1 --}}
                 <div id="first">
@@ -512,6 +515,13 @@
     </div>
 
 
+
+@endsection
+@push('js')
+
+
+@endsection
+
 @endsection
 @push('js')
 
@@ -528,4 +538,5 @@
         }
     </script>
 @endpush
+
 
