@@ -36,7 +36,7 @@
                     <div class="col-md-6">
                         <label for="inputname" class="form-label">Nom<span style="color: red;"
                                 title="champ obligatoire">*</span></label>
-                        <input type="text" class="form-control" id="name" name="first_name" value="{{ old('first_name') }}">
+                        <input type="text" class="form-control" id="name" name="name" value="{{ old('name') }}">
                         @error('first_name')
                             <span class="text-danger">{{ $message }}</span>
                         @enderror
@@ -172,7 +172,14 @@
                         style="margin-top:10px; margin-bottom:5px; padding:10px; float:right; font-size:18px; border-radius:20px/20px"
                         value="">Suivant</button>
                 </div>
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 8fc1b0f4f02c72bb11b9a7b1d143b7c5c97635f6
+>>>>>>> 97c25b895e18cfc98b2ac61157acbbc7acd9d470
                 {{-- partie 2 --}}
                 <div id="second" style="margin-top: 20px; display:none;">
                     <h2 style="text-align:center; padding-bottom: 16px; padding-top: -16px;"> <u>&Eacute;tape 2 :</u>
@@ -628,7 +635,11 @@
             </form>
         </div>
     </div>
+<<<<<<< HEAD
+
+=======
 @endsection
+>>>>>>> 8fc1b0f4f02c72bb11b9a7b1d143b7c5c97635f6
 
 @push('js')
 
