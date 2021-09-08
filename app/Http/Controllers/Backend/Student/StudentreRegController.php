@@ -58,4 +58,23 @@ class StudentreRegController extends Controller
         $user->save();
     }
 
+
+
+
+
+
+
+    
+
+
+
+
+
+
 }
+
+
+
+
+
+ 
