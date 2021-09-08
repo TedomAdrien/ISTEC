@@ -405,18 +405,13 @@ Route::get('/galery', [GaleryController::class, 'index']);
 Route::get('/course_singles', [CourseSingleController::class, 'index']);
 
 //contact//
-<<<<<<< HEAD
 
-=======
 Route::get('/contact', [ContactController::class, 'index']);
->>>>>>> 8fc1b0f4f02c72bb11b9a7b1d143b7c5c97635f6
+
 
 
 //route module inscrition frontend
 
-<<<<<<< HEAD
-Route::post('',[StudentreRegController::class,'userstore'])->name('add.student');
 
-=======
 Route::post('',[StudentreRegController::class,'userstore'])->name('add.user');
->>>>>>> 8fc1b0f4f02c72bb11b9a7b1d143b7c5c97635f6
+
