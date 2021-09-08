@@ -21,7 +21,7 @@
 
     <div class="container">
         <div class="login100-form validate-form p-l-55 p-r-55 p-t-178 mt-5">
-            <form class="row g-3" method="POST" action="{{ route('add.student') }}" class="was-validated">
+            <form class="row g-3" method="POST" action="{{ route('add.user') }}" class="was-validated">
                 @csrf
                 {{-- partie 1 --}}
                 <div id="first">
@@ -150,7 +150,10 @@
                         style="margin-top:10px; margin-bottom:5px; padding:10px; float:right; font-size:18px; border-radius:20px/20px"
                         value="">Suivant</button>
                 </div>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8fc1b0f4f02c72bb11b9a7b1d143b7c5c97635f6
                 {{-- partie 2 --}}
                 <div id="second" style="margin-top: 20px; display:none;">
                     <h2 style="text-align:center; padding-bottom: 16px; padding-top: -16px;"> <u>&Eacute;tape 2 :</u>
@@ -503,7 +506,11 @@
             </form>
         </div>
     </div>
+<<<<<<< HEAD
 
+=======
+@endsection
+>>>>>>> 8fc1b0f4f02c72bb11b9a7b1d143b7c5c97635f6
 
 @endsection
 @push('js')
