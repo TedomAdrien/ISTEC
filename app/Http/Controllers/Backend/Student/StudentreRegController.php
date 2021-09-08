@@ -13,7 +13,7 @@ class StudentreRegController extends Controller
     //
     public function userstore(Request $request)
     {
-        dd('here');
+        
         DB::transaction(function () use ($request) {
             //'email' => 'required|unique:users',
             //'name' => 'required',

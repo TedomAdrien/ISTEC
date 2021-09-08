@@ -44,7 +44,7 @@
                     <div class="col-md-6">
                         <label for="inputname" class="form-label">Nom<span style="color: red;"
                                 title="champ obligatoire">*</span></label>
-                        <input type="text" class="form-control" id="name" name="first_name" value="{{ old('first_name') }}">
+                        <input type="text" class="form-control" id="name" name="name" value="{{ old('name') }}">
                         @error('first_name')
                             <span class="text-danger">{{ $message }}</span>
                         @enderror
@@ -182,6 +182,7 @@
                         value="">Suivant</button>
                 </div>
 
+                
                 {{-- partie 2 --}}
                 <div id="second" style="margin-top: 20px; display:none;">
                     <h2 style="text-align:center; padding-bottom: 16px; padding-top: -16px;"> <u>&Eacute;tape 2 :</u>
@@ -552,8 +553,6 @@
             </form>
         </div>
     </div>
-
-
 
 
 @endsection
