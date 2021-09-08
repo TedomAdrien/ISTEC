@@ -1,7 +1,7 @@
-@extends('parent')
+@extends('News.News')
 @section('title','news5')
 
-@section('content')
+@section('toto')
 <section class="probootstrap-section probootstrap-section-colored">
         <div class="container">
           <div class="row">
@@ -23,13 +23,12 @@
                   <p> votre avenir depend de l'ensenble de vos choix du present</p>
 
                     <span class="probootstrap-date"><i class="icon-calendar"></i>Aout 30, 2021</span>
-                    <span class="probootstrap-location"><i class="icon-location2"></i>Campus ISTEC, derriere Camlait Ndogbogn</span>
+                    <span class="probootstrap-location"><i class="icon-location2"></i>Campus ISTEC, derriere Camlait Ndogbong</span>
                   </p>
                   <p><a href="/News/detail/detaill8" class="btn btn-primary">👉🏼 Apprendre encore plus</a></p>
                 </div>
                 <div class="probootstrap-image probootstrap-animate" style="background-image: url(images/image-news/12.jpeg)">
-                  {{-- <a href="https://vimeo.com/45830194" class="btn-video popup-vimeo"><i class="icon-play3"></i></a> --}}
-                </div>
+                  </div>
               </div>
             </div>
           </div>
@@ -43,6 +42,7 @@
 
 
 
+<<<<<<< HEAD
       <section class="probootstrap-section">
         <div class="container">
 
@@ -201,6 +201,8 @@
         </div>
       </section>
 
+=======
+>>>>>>> 2ed5797e13cf1dcb535e3e59d86f2b03262b9a62
     @endsection
 
 

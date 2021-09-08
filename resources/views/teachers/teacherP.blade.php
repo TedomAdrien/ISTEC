@@ -1,7 +1,7 @@
-@extends('parent')
+@extends('teachers.teachers')
 @section('title','teacherP')
 
-@section('content')
+@section('teachers')
 <section class="probootstrap-section probootstrap-section-colored">
         <div class="container">
           <div class="row">
@@ -29,13 +29,11 @@
                     <li class="instagram"><a href="https://www.instagram.com/wabowilfried/"><i class="icon-instagram2"></i></a></li>
                     <li class="google-plus"><a href="mailto: wabowilfried9@gmail.com"><i class="icon-google-plus"></i></a></li>
                   </ul>
-                  {{-- <p><a href="#" class="btn btn-primary">Learn More</a></p> --}}
-                </div>
+                   </div>
 
                 <div class="probootstrap-image probootstrap-animate" style="background-image: url('images/images_teachers/photo_2021-08-18_15-31-55.jpg')">
 
-                  {{-- <a href="https://vimeo.com/45830194" class="btn-video popup-vimeo"><i class="icon-play3"></i></a> --}}
-                </div>
+                 </div>
               </div>
             </div>
           </div>
@@ -44,6 +42,7 @@
 
 
 
+<<<<<<< HEAD
   <section class="probootstrap-section">
         <div class="container">
 
@@ -333,8 +332,10 @@
           </div>
         </div>
       </section>
+=======
+>>>>>>> 2ed5797e13cf1dcb535e3e59d86f2b03262b9a62
 
 
-    </div>
+   
 
 @endsection
