@@ -38,7 +38,7 @@
                     <div class="col-md-6">
                         <label for="inputname" class="form-label">Nom<span style="color: red;"
                                 title="champ obligatoire">*</span></label>
-                        <input type="text" class="form-control" id="name" name="first_name" value="{{ old('name') }}">
+                        <input type="text" class="form-control" id="name" name="first_name" value="{{ old('first_name') }}">
                         @error('first_name')
                             <span class="text-danger">{{ $message }}</span>
                         @enderror
@@ -174,11 +174,17 @@
                             <span class="text-danger">{{ $message }}</span>
                         @enderror
                     </div>
-
                     <div class="col-md-6">
                         <label for="inputniveau" class="form-label">Niveau<span style="color: red;"
                                 title="champ obligatoire">*</span></label>
-                        <input type="text" class="form-control" id="inputniveau" name="niveau" value="{{ old('niveau') }}">
+                        <select id="inputniveau" class="form-control" name="niveau" value="{{ old('niveau') }}">
+                            <option>Choose...</option>
+                            <option value="1" {{ (old('niveau') === '1') ? 'selected' : '' }}>1</option>
+                            <option value="2" {{ (old('niveau') === '2') ? 'selected' : '' }}>1</option>
+                            <option value="3" {{ (old('niveau') === '3') ? 'selected' : '' }}>3</option>
+                            <option value="4" {{ (old('niveau') === '4') ? 'selected' : '' }}>4</option>
+                            <option value="5" {{ (old('niveau') === '5') ? 'selected' : '' }}>5</option>
+                        </select>
                         @error('niveau')
                             <span class="text-danger">{{ $message }}</span>
                         @enderror
