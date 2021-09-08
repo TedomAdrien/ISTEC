@@ -20,12 +20,16 @@
             </div>
         </div>
     </section>
-
+    <div class="container center">
+        @if(session('echec'))
+        <strong class="alert alert-danger">
+        {{session('echec')}}
+        </strong>
+    @endif
+    </div>
     <div class="container">
         <div class="login100-form validate-form p-l-55 p-r-55 p-t-178 mt-5">
-
             <form class="row g-3" method="POST" action="{{ route('add.student') }}" class="was-validated">
-
                 @csrf
                 {{-- partie 1 --}}
                 <div id="first">
@@ -36,7 +40,7 @@
                     <div class="col-md-6">
                         <label for="inputname" class="form-label">Nom<span style="color: red;"
                                 title="champ obligatoire">*</span></label>
-                        <input type="text" class="form-control" id="name" name="name" value="{{ old('name') }}">
+                        <input type="text" class="form-control" id="name" name="first_name" value="{{ old('first_name') }}">
                         @error('first_name')
                             <span class="text-danger">{{ $message }}</span>
                         @enderror
@@ -190,12 +194,18 @@
               <span class="text-danger">{{ $message }}</span>
                         @enderror
                     </div>
-
                     <div class="col-md-6">
 
                         <label for="inputniveau" class="form-label">Niveau<span style="color: red;"
                                 title="champ obligatoire">*</span></label>
-                        <input type="text" class="form-control" id="inputniveau" name="niveau" value="{{ old('niveau') }}">
+                        <select id="inputniveau" class="form-control" name="niveau" value="{{ old('niveau') }}">
+                            <option>Choose...</option>
+                            <option value="1" {{ (old('niveau') === '1') ? 'selected' : '' }}>1</option>
+                            <option value="2" {{ (old('niveau') === '2') ? 'selected' : '' }}>1</option>
+                            <option value="3" {{ (old('niveau') === '3') ? 'selected' : '' }}>3</option>
+                            <option value="4" {{ (old('niveau') === '4') ? 'selected' : '' }}>4</option>
+                            <option value="5" {{ (old('niveau') === '5') ? 'selected' : '' }}>5</option>
+                        </select>
                         @error('niveau')
 
                             <span class="text-danger">{{ $message }}</span>
@@ -620,14 +630,13 @@
                         Précédent
                     </button>
                     <button type="submit" class="btn btn-primary "
-                        style="margin-top:10px; margin-bottom:5px; padding:10px; float:right; font-size:18px; border-radius:20px/20px">
+                        style="margin-top:10px; margin-bottom:5px; padding:10px; float:right; font-size:18px; border-radius:20px/20px;background-color:green;">
                         Valider
                     </button>
                 </div>
             </form>
         </div>
     </div>
-@endsection
 
 @push('js')
 
