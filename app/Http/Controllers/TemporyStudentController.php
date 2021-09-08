@@ -12,7 +12,8 @@ class TemporyStudentController extends Controller
 {
     public function store(Request $request)
     {
-        $validator = $request->validate([
+            //code...
+             $validator = $request->validate([
             'first_name' => 'required|min:3',
             'last_name' => 'required|min:3',
             'email' => 'required|email|unique:tempory_students',
@@ -51,6 +52,7 @@ class TemporyStudentController extends Controller
             'telephone_autre' => 'nullable|min:8',
         ]);
 
+        try {
         // create temporaly student
         $student = TemporyStudent::create($request->all());
 
@@ -75,7 +77,11 @@ class TemporyStudentController extends Controller
             ]);
         }
 
-        return view('frontend.inscription.recapitulatif', compact('student', 'parent', 'other_parent'))->with('success', 'Pré-inscription enregistrée !');
+            return view('frontend.inscription.recapitulatif', compact('student', 'parent', 'other_parent'))->with('success', 'Pré-inscription enregistrée !');
+        } catch (\Exception $e) {
+            //throw $th;
+            return redirect()->back()->with('echec', 'Echec lors de l\'inscrition, veuillez re-éssayer...');
+        }
     }
 
     public function print(TemporyStudent $student)
@@ -84,7 +90,7 @@ class TemporyStudentController extends Controller
         $parent = TemporyParent::where('tempory_student_id', $student->id)->first();
         $other_parent = null;
 
-        $pdf = PDF::loadView('frontend.inscription.recap', compact('student', 'parent', 'other_parent'));
+        $pdf = PDF::loadView('frontend.inscription.recapitulatif', compact('student', 'parent', 'other_parent'));
 
         //return $pdf;
         // download PDF file with download method
