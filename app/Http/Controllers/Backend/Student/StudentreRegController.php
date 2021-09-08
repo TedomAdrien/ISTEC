@@ -13,13 +13,14 @@ class StudentreRegController extends Controller
     //
     public function userstore(Request $request)
     {
-        dd('here');
+        
         DB::transaction(function () use ($request) {
             //'email' => 'required|unique:users',
             //'name' => 'required',
         });
 
         $user = new User();
+<<<<<<< HEAD
 <<<<<<< HEAD
         $user -> name = $request -> name;
         $user ->lastname  = $request -> lastname;
@@ -61,6 +62,8 @@ class StudentreRegController extends Controller
     }
 
 =======
+=======
+>>>>>>> 97c25b895e18cfc98b2ac61157acbbc7acd9d470
         $user->name = $request->name;
         $user->lastname  = $request->lastname;
         $user->email  = $request->email;
@@ -97,5 +100,8 @@ class StudentreRegController extends Controller
         $user->telephone_autre  = $request->telephone_autre;
         $user->save();
     }
+<<<<<<< HEAD
 >>>>>>> 42cde7126cdd514ca4f5715af14f4a983947a4d4
+=======
+>>>>>>> 97c25b895e18cfc98b2ac61157acbbc7acd9d470
 }

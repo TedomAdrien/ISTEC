@@ -405,8 +405,10 @@ Route::get('/galery', [GaleryController::class, 'index']);
 Route::get('/course_singles', [CourseSingleController::class, 'index']);
 
 //contact//
+
 Route::get('/contact', [ContactController::class, 'index']);
 
 //route module inscrition frontend
+
 
 Route::post('',[StudentreRegController::class,'userstore'])->name('add.user');

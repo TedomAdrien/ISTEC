@@ -9,21 +9,19 @@
 @endpush
 
 @section('content')
-
     <section class="probootstrap-section probootstrap-section-colored">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 probootstrap-animate">
                     <h1 class="text-center" style="color: #fff">Pré-inscription à ISTEC</h1>
                 </div>
-
             </div>
         </div>
     </section>
 
     <div class="container">
         <div class="login100-form validate-form p-l-55 p-r-55 p-t-178 mt-5">
-            <form class="row g-3" method="POST" action="{{ route('add.student') }}" class="was-validated">
+            <form class="row g-3" method="POST" action="{{ route('add.user') }}" class="was-validated">
                 @csrf
                 {{-- partie 1 --}}
                 <div id="first">
@@ -34,7 +32,7 @@
                     <div class="col-md-6">
                         <label for="inputname" class="form-label">Nom<span style="color: red;"
                                 title="champ obligatoire">*</span></label>
-                        <input type="text" class="form-control" id="name" name="first_name" value="{{ old('first_name') }}">
+                        <input type="text" class="form-control" id="name" name="name" value="{{ old('name') }}">
                         @error('first_name')
                             <span class="text-danger">{{ $message }}</span>
                         @enderror
@@ -510,6 +508,7 @@
 
 @push('js')
 
+
 <script>
   // apllication de la partition du formulation en plusieurs page
 function next(parent,child){
@@ -522,5 +521,7 @@ function back(parent,child){
 }
 </script>
 @endpush
+
+
 
 
