@@ -176,6 +176,7 @@
                         style="margin-top:10px; margin-bottom:5px; padding:10px; float:right; font-size:18px; border-radius:20px/20px"
                         value="">Suivant</button>
                 </div>
+
                 {{-- partie 2 --}}
                 <div id="second" style="margin-top: 20px; display:none;">
                     <h2 style="text-align:center; padding-bottom: 16px; padding-top: -16px;"> <u>&Eacute;tape 2 :</u>
@@ -637,12 +638,9 @@
             </form>
         </div>
     </div>
-
 @endsection
 
 @push('js')
-
-
 <script>
   // apllication de la partition du formulation en plusieurs page
 function next(parent,child){

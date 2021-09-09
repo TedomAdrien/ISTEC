@@ -410,8 +410,6 @@ Route::get('/course_singles', [CourseSingleController::class, 'index']);
 
 Route::get('/contact', [ContactController::class, 'index']);
 
-
-
 //route module inscrition frontend
 
 
