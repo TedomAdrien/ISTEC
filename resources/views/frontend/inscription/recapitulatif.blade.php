@@ -3,31 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ISTEC Pré-inscription | Récapitulatif</title>
     <link rel="stylesheet" href="{{ asset('css/recapitulatif.css') }}">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </head>
 <body>
-<div class="contend">
+    <div class="contend">
     <h1 class="center">FICHE D'INSCRIPTION  <span class="italic" >N<sup>o</sup></span> :  <span>{{ $student->id . '-' . date('Y-m-d') }}</span> </h1>
 
     <div class="info">
         <h4 class="italic underline serif">INFORMATIONS PERSONNELLES :</h4>
-        <div><p class="flex spacebetween"><span class="b1"> Filière : <span>{{ $student->formation }}</span> </span> <span class="b1"> Specialite: <span>{{ $student->specialites }}</span></span> <span class="b1"> Niveau : <span>{{ $student->niveau }}</span></span></p></div>
-        @if($student->genre === 'Masculin')
-            <div><p class="flex spacebetween">Titre :  <span class="b1"> M :<span style="font-weight: bold"> X</span> </span> <span class="b1"> Mlle<span>.....</span></span> <span class="b1"> Mme<span>.....</span></span></p></div>
-        @elseif($student->genre === 'Feminin' && $student->statut === 'Marié(e)')
-            <div><p class="flex spacebetween">Titre :  <span class="b1"> M <span>.....</span> </span> <span class="b1"> Mlle<span>.....</span></span> <span class="b1"> Mme :<span style="font-weight: bold"> X</span></span></p></div>
-        @else
-            <div><p class="flex spacebetween">Titre :  <span class="b1"> M <span>.....</span> </span> <span class="b1"> Mlle :<span style="font-weight: bold"> X</span></span> <span class="b1"> Mme<span>.....</span></span></p></div>
-        @endif
-        <div><p class="flex spacebetween"> <span class="b2"> Nom(s) : <span>{{ $student->first_name }}</span></span> <span class="b2"> Prénom(s) : <span>{{ $student->last_name }}</span></span></p></div>
-        <!-- <div><p>Noms du conjoint: <span>.................................................................................................................................</span></p></div> -->
-        <div><p class="flex spacebetween"> <span class="b2"> Date de naissance : <span>{{ $student->birthdate }}</span></span> <span class="b2"> Lieu : <span>{{ $student->lieu_naissance }}</span></span></p></div>
-        <div><p class="flex spacebetween"><span class="b2"> Numéro CNI : <span>{{ $student->NoCNI }}</span></span> <span class="b2"> Region d'origine : <span>{{ $student->origin_region }}</span></span></p></div>
-        <div><p class="flex spacebetween"><span class="b2"> Nationalité : <span>{{ $student->pays }}</span></span><span class="b2">Quartier : <span>{{ $student->ville_residence }}</span></span></p></div>
-        <div><p class="flex spacebetween"> <span class="b2"> Télephone personnel : <span>{{ $student->phone_number }}</span></span> <span class="b2">Télephone parent : <span>{{ $parent->phone_number }} {{ (!is_null($other_parent) && !is_null($other_parent->phone_number)) ? '/' . $other_parent->phone_number : '' }}</span></span></p></div>
-        <div><p>Email : <span><em>{{ $student->email }}</em></span></p></div>
+        <table class="table-responsive">
+            <tbody>
+                 <tr><td class="b1"> Filière : {{ $student->formation }}</td><td class="b1"> Specialite: {{ $student->specialites }}</td> <td class="b1"> Niveau :{{ $student->niveau }}</td></tr>
+                    @if($student->genre === 'Masculin')
+                        <td class="flex spacebetween"><tr>Titre :<span class="b1"> M :<span style="font-weight: bold"> X</span></td><td><span class="b1"> Mlle: .....</td> <td><span class="b1"> Mme .....</span></td></tr>
+                    @elseif($student->genre === 'Feminin' && $student->statut === 'Marié(e)')
+                        <td class="flex spacebetween"><tr>Titre :<span class="b1"> M : ....</span></td><td><span class="b1"> Mlle : .....</td> <td><span style="font-weight: bold"> Mme  X</span></td></tr>
+                    @else
+                        <td class="flex spacebetween"><tr>Titre :<span class="b1"> M : ....</span></td><td><span class="b1"> Mlle :<span style="font-weight: bold"> X</span></td> <td><span style="font-weight: bold"> Mme  X</span></td></tr>
+                    @endif
+                
+                <td class="flex spacebetween"> <tr class="b2"> Nom(s) : {{ $student->first_name }}</tr> <tr class="b2"> Prénom(s) : {{ $student->last_name }}</td></tr>
+                <!-- <div><p>Noms du conjoint: <span>.................................................................................................................................</span></p></div> -->
+                <tr class="flex spacebetween"> <td class="b2"> Date de naissance : {{ $student->birthdate }}</td> <td class="b2"> Lieu : {{ $student->lieu_naissance }}</td></tr>
+                <tr class="flex spacebetween"><td class="b2"> Numéro CNI : {{ $student->NoCNI }}</td> <td class="b2"> Region d'origine : {{ $student->origin_region }}</td></tr>
+                <tr class="flex spacebetween"><td class="b2"> Nationalité : {{ $student->pays }}</td><td class="b2">Quartier : {{ $student->ville_residence }}</td></tr>
+                <tr class="flex spacebetween"> <td class="b2"> Télephone personnel : {{ $student->phone_number }}</td> <td class="b2">Télephone parent : {{ $parent->phone_number }} {{ (!is_null($other_parent) && !is_null($other_parent->phone_number)) ? '/' . $other_parent->phone_number : '' }}</td></td>
+                <tr>Email :<em>{{ $student->email }}</em></tr>
+            </tbody>
+        </table>
     </div>
 
     <div class="info border-b">
@@ -54,6 +64,6 @@
     <div class="info center">
         <a href="{{ route('print.fiche_pre_inscription', $student) }}" style="border: 2px black solid; text-decoration: none; padding: 5px; color: black;">Imprimer</a>
     </div>
-</div>
+  </div>
 </body>
 </html>
