@@ -10,7 +10,7 @@
 
           <div class="row">
             <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate fadeInUp probootstrap-animated">
-              <a href="News/1" class="probootstrap-featured-news-box">
+              <a href="{{asset('News/1')}}" class="probootstrap-featured-news-box">
                 <span></span>
                 <figure class="probootstrap-media"><img src="{{asset('images/image_galery/pb1.jpg')}}"  class="img-responsive" style="width: 360px;height: 230px;"></figure>
                 <div class="probootstrap-text">
@@ -26,7 +26,7 @@
               </a>
             </div>
             <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate fadeInUp probootstrap-animated">
-              <a href="News/2" class="probootstrap-featured-news-box">
+              <a href="{{asset('News/2')}}" class="probootstrap-featured-news-box">
                 <span></span>
 
                 <figure class="probootstrap-media"><img src="{{asset('images/image_galery/images.jpg')}}" style="width: 360px;height: 230px;"class="img-responsive"></figure>
@@ -43,7 +43,7 @@
             </div>
             <div class="clearfix visible-sm-block visible-xs-block"></div>
             <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate fadeInUp probootstrap-animated">
-              <a href="News/3" class="probootstrap-featured-news-box">
+              <a href="{{asset('News/3')}}" class="probootstrap-featured-news-box">
                 <span></span>
                 <figure class="probootstrap-media"><img src="{{asset('images/image-news/n3.jpg')}}" class="img-responsive" style="width: 360px;height: 230px;"></figure>
                 <div class="probootstrap-text">
@@ -61,7 +61,7 @@
           <div class="row">
             <div class="row">
               <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate fadeInUp probootstrap-animated">
-                <a href="News/4" class="probootstrap-featured-news-box">
+                <a href="{{asset('News/4')}}" class="probootstrap-featured-news-box">
                   <figure class="probootstrap-media"><img src="{{asset('images/image_galery/students.jpg')}}"  class="img-responsive" style="width: 361px;height: 239px;"></figure>
                   <div class="probootstrap-text">
 
@@ -74,7 +74,7 @@
                 </a>
               </div>
               <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate fadeInUp probootstrap-animated">
-                <a href="News/5" class="probootstrap-featured-news-box">
+                <a href="{{asset('News/5')}}" class="probootstrap-featured-news-box">
                   <figure class="probootstrap-media"><img src="{{asset('images/image-news/n5.jpg')}}"  class="img-responsive" style="width: 360px;height: 230px;"></figure>
                   <div class="probootstrap-text">
 
@@ -89,7 +89,7 @@
               </div>
               <div class="clearfix visible-sm-block visible-xs-block"></div>
               <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate fadeInUp probootstrap-animated">
-                <a href="News/6" class="probootstrap-featured-news-box">
+                <a href="{{asset('News/6')}}" class="probootstrap-featured-news-box">
                   <figure class="probootstrap-media"><img src="{{asset('images/image-news/t.JPG')}}"  class="img-responsive" style="width: 360px;height: 230px;"></figure>
                   <div class="probootstrap-text">
                     <h3>STAGE ACADÉMIQUE</h3>
@@ -105,7 +105,7 @@
             <div class="clearfix visible-md-block"></div>
 
             <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate fadeInUp probootstrap-animated">
-              <a href="News/7" class="probootstrap-featured-news-box">
+              <a href="{{asset('News/7')}}" class="probootstrap-featured-news-box">
                 <figure class="probootstrap-media"><img src="{{asset('images/image-news/n4.jpg')}}"  class="img-responsive" style="width: 360px;height: 230px;"></figure>
                 <div class="probootstrap-text">
                   <h3>INITIATION A L'INFORMATIQUE </h3>
@@ -120,7 +120,7 @@
             </div>
             <div class="clearfix visible-sm-block visible-xs-block"></div>
             <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate fadeInUp probootstrap-animated">
-              <a href="News/8" class="probootstrap-featured-news-box">
+              <a href="{{asset('News/8')}}" class="probootstrap-featured-news-box">
                 <figure class="probootstrap-media"><img src="{{asset('images/image-news/12.jpeg')}}"  class="img-responsive" style="width: 360px;height: 230px;"></figure>
                 <div class="probootstrap-text">
 

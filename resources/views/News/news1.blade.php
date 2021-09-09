@@ -32,7 +32,7 @@
                   <p><a href="{{asset('/News/detail/1')}}" class="btn btn-primary">Plus d'infos</a></p>
                 </div>
                 <div class="probootstrap-image probootstrap-animate" style="background-image: ">
-                  <img src="images/image_galery/pb.jpg">
+                  <img src="{{asset('images/image_galery/pb.jpg')}}">
                 </div>
               </div>
             </div>

@@ -27,7 +27,8 @@
                   </p>
                   <p><a href="/News/detail/4" class="btn btn-primary">Plus d'infos</a></p>
                 </div>
-                <div class="probootstrap-image probootstrap-animate" style="background-image: url(images/image_galery/students.jpg)">
+                <div class="probootstrap-image probootstrap-animate" style="background-image: >
+                  <img src="{{asset('images/image_galery/students.jpg')}}" style="width: 655px;height: 543px;">
                   </div>
               </div>
             </div>

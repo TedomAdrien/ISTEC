@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class News1Controller extends Controller
 {
-    public function returnViewbyid($id){
+    public function returnActualitebyid($id){
         $news = News1::all();
 
         switch($id){
