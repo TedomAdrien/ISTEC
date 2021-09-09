@@ -17,8 +17,16 @@
                     <h1 class="text-center" style="color: #fff">Pré-inscription à ISTEC</h1>
                 </div>
 
+
             </div>
         </div>
+
+      </section>
+*
+
+            </div>
+        </div>
+
     </section>
     <div class="container center">
         @if(session('echec'))
@@ -29,7 +37,9 @@
     </div>
     <div class="container">
         <div class="login100-form validate-form p-l-55 p-r-55 p-t-178 mt-5">
+
             <form class="row g-3" method="POST" action="{{ route('add.student') }}" class="was-validated">
+
                 @csrf
                 {{-- partie 1 --}}
                 <div id="first">
@@ -139,6 +149,7 @@
                             <div>
                                 <label id="genre">Feminin</label>
                                 <input id="genre" type="radio" name="sex" value="Feminin" {{ (old('sex') === 'Feminin') ? 'checked' : '' }}>
+
                             </div>
                         </div>
                         @error('sex')
@@ -176,6 +187,7 @@
                         style="margin-top:10px; margin-bottom:5px; padding:10px; float:right; font-size:18px; border-radius:20px/20px"
                         value="">Suivant</button>
                 </div>
+
 
                 {{-- partie 2 --}}
                 <div id="second" style="margin-top: 20px; display:none;">
@@ -458,98 +470,7 @@
                     </button>
                 </div>
 
-                {{-- partie 5 --}}
-                <!-- <div id="five" style="display:none">
-                    <h2 style="text-align:center; padding-bottom: 16px; padding-top: -16px;"> <u>&Eacute;tape 5 :</u> <span>Parents (Tuteurs)</span></h2>
-
-                    <div style="float:left; padding:0 8px; width:50%;">
-                        <h5>PARENTS (TUTEURS)</h5>
-                        <div class="col-md-12">
-                            <label for="inputname" class="form-label">Nom<span style="color: red;"
-                                    title="champ obligatoire">*</span></label>
-                            <input type="text" class="form-control" id="inputname" name="name_parent" value="{{ old('name_parent') }}">
-                            @error('name_parent')
-                                <span class="text-danger">{{ $message }}</span>
-                            @enderror
-                        </div>
-                        <div class="col-md-12">
-                            <label for="inputlastname" class="form-label">Prénom<span style="color: red;"
-                                    title="champ obligatoire">*</span></label>
-                            <input type="text" class="form-control" id="inputlastname" name="lastname_parent" value="{{ old('lastname_parent') }}">
-                            @error('lastname_parent')
-                                <span class="text-danger">{{ $message }}</span>
-                            @enderror
-                        </div>
-                        <div class="col-md-12">
-                            <label for="ville_residence " class="form-label"> Ville de residence </label>
-                            <input type="text" id="ville_residence" class="form-control" name="ville_resid_parent" value="{{ old('ville_resid_parent') }}">
-                            @error('ville_resid_parent')
-                                <span class="text-danger">{{ $message }}</span>
-                            @enderror
-                        </div>
-                        <div class="col-md-12">
-                            <label for="telephone " class="form-label">Telephone<span style="color: red;"
-                                    title="champ obligatoire">*</span></label>
-                            <input type="text" id="telephone" class="form-control" placeholder="+XXX XXXXXXXXX"
-                                name="telephone_parent" value="{{ old('telephone_parent') }}">
-                            @error('telephone_parent')
-                                <span class="text-danger">{{ $message }}</span>
-                            @enderror
-                        </div>
-                    </div>
-
-                    <div>
-                        <h5>AUTRE</h5>
-                        <div class="col-md-6">
-                            <label for="name_autre" class="form-label">Nom<span style="color: red;"
-                                    title="champ obligatoire">*</span></label>
-                            <input type="text" class="form-control" id="name_autre" name="name_autre" value="{{ old('name_autre') }}">
-                            @error('name_autre')
-                                <span class="text-danger">{{ $message }}</span>
-                            @enderror
-                        </div>
-                        <div class="col-md-6">
-                            <label for="lastname_autre" class="form-label">Prénom<span style="color: red;"
-                                    title="champ obligatoire">*</span></label>
-                            <input type="text" class="form-control" id="lastname_autre" name="lastname_autre" value="{{ old('lastname_autre') }}">
-                            @error('lastname_autre')
-                                <span class="text-danger">{{ $message }}</span>
-                            @enderror
-                        </div>
-                        <div class="col-md-6">
-                            <label for="ville_resid_autre " class="form-label"> Ville de residence </label>
-                            <input type="text" id="ville_resid_autre" class="form-control" name="ville_resid_autre" value="{{ old('ville_resid_autre') }}">
-                            @error('ville_resid_autre')
-                                <span class="text-danger">{{ $message }}</span>
-                            @enderror
-                        </div>
-
-                        <div class="col-md-6">
-                            <label for="telephone_autre" class="form-label">Telephone<span style="color: red;"
-                                    title="champ obligatoire">*</span></label>
-                            <input type="text" id="telephone_autre" class="form-control" placeholder="+XXX XXXXXXXXX"
-                                name="telephone_autre" value="{{ old('telephone_autre') }}">
-                            @error('telephone_autre')
-                                <span class="text-danger">{{ $message }}</span>
-                            @enderror
-                        </div>
-                    </div>
-
-                    <button type="button" onclick="back('four','five')" class="btn btn-secondary"
-
-                        style="margin-top:10px; margin-bottom:5px; padding:10px; float:left; font-size:18px; border-radius:20px/20px"
-                        value="">
-                        Précédent
-                    </button>
-
-                    <button type="button" onclick="next('four','five')" class="btn btn-primary "
-                        style="margin-top:10px; margin-bottom:5px; padding:10px; float:right; font-size:18px; border-radius:20px/20px; "
-                        value="">
-                        Suivant
-                    </button>
-                </div> -->
-
-                {{-- partie 5 --}}
+               {{-- partie 5 --}}
                 <div id="five" style="display:none">
                     <h2 style="text-align:center; padding-bottom: 16px; padding-top: -16px;"> <u>&Eacute;tape 5 :</u> <span>Parents (Tuteurs)</span></h2>
 
@@ -630,27 +551,36 @@
                         value="">
                         Précédent
                     </button>
+
                     <button type="submit" class="btn btn-primary "
                         style="margin-top:10px; margin-bottom:5px; padding:10px; float:right; font-size:18px; border-radius:20px/20px;background-color:green;">
                         Valider
                     </button>
+                </div>
+
+             
                 </div>
             </form>
         </div>
     </div>
 @endsection
 
+
+
+
+
 @push('js')
+
 <script>
   // apllication de la partition du formulation en plusieurs page
 function next(parent,child){
   document.getElementById(parent).style.display="none";
   document.getElementById(child).style.display="block";
 }
-function back(parent,child){
-  document.getElementById(parent).style.display="block";
-  document.getElementById(child).style.display="none";
-}
+
 </script>
 
+
 @endpush
+
+

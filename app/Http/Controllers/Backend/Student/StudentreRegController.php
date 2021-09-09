@@ -21,8 +21,6 @@ class StudentreRegController extends Controller
 
         $user = new User();
 
-
-
         $user->name = $request->name;
         $user->lastname  = $request->lastname;
         $user->email  = $request->email;
@@ -59,4 +57,24 @@ class StudentreRegController extends Controller
         $user->telephone_autre  = $request->telephone_autre;
         $user->save();
     }
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
 }
+
+
+
+
+
+ 
