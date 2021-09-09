@@ -50,6 +50,10 @@
     <div class="info center">
         <p>(1) Ces droits universitaires sont exclusifs des frais d'examen, de soutenance et autres frais solicités ou exigés dans le cadre de l'examen.</p>
     </div>
+
+    <div class="info center">
+        <a href="{{ route('print.fiche_pre_inscription', $student) }}" style="border: 2px black solid; text-decoration: none; padding: 5px; color: black;">Imprimer</a>
+    </div>
 </div>
 </body>
 </html>
