@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Free Bootstrap Theme by ProBootstrap.com">
     <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
 
     <title>@yield('title')</title>
 
@@ -22,6 +25,7 @@
     <link rel="stylesheet" href="{{ asset('css/css/select2.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/css/ animsition.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/css/daterangepicker.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/recapitulatif.css') }}">
 
     <!--[if lt IE 9]>
       <script src="js/vendor/html5shiv.min.js"></script>
@@ -112,7 +116,7 @@
           <div class="row">
             <div class="col-md-4">
               <div class="probootstrap-footer-widget">
-                <h3>A Propos De L'istec </h3>
+                <h3>A Propos De L'ISTEC </h3>
                 <p>Une formation académique pour l'obtention d'un diplôme universitaire suivie d'un corps professoral dynamique une direction jeune et compétente pour les études, l'étudiant a donc tous les atouts pour réussir.</p>
                 <h3>Social</h3>
                 <ul class="probootstrap-footer-social">
