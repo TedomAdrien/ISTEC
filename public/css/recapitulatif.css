@@ -136,5 +136,9 @@ h2 {
 		width: 100%;
 	}
 }
-
-.table .td .tr{border:1px black;}
+ td{
+    padding:12px;   
+   } 
+ tr{
+     padding:8px;
+    }
