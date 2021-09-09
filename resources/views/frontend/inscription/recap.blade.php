@@ -33,16 +33,25 @@
                 </tr>
                 @elseif($student->genre === 'Feminin' && $student->statut === 'Marié(e)')
                 <tr>
-                      <td > Nom(s) : {{ $student->first_name }}</td>
-                      <td > Prénom(s) : {{ $student->last_name }}</td>     
+                    <td>Titre : M : .....</td>
+                    <td> Mlle: <span style="font-weight: bold"> X</span></td>
+                    <td> Mme .....</td>          
                 </tr>
                 @else
+                <tr>
+                    <td>Titre : M :.........</td>
+                    <td> Mlle: <span style="font-weight: bold"> X</span></td>
+                    <td> Mme .....</td>          
+                </tr>
+                @endif
+                <tr>
+                    <td > Nom(s) : {{ $student->first_name }}</td>
+                    <td > Prénom(s) : {{ $student->last_name }}</td>     
+                </tr>
                 <tr>
                     <td > Date de naissance : {{ $student->birthdate }}</td>
                     <td > Lieu : {{ $student->lieu_naissance }}</td>
                 </tr>
-                @endif
-                
                 <tr>
                     <td > Numéro CNI : {{ $student->NoCNI }}</td>
                     <td > Region d'origine : {{ $student->origin_region }}</td>        
@@ -90,6 +99,9 @@
         <a href="{{ route('print.fiche_pre_inscription', $student) }}" style="border: 2px black solid; text-decoration: none; padding: 5px; color: black;">Imprimer</a>
     </div>
   </div>
+
+
+
  <!--
 <div class="contend">
     <h1 class="center">FICHE D'INSCRIPTION  <span class="italic" >N<sup>o</sup></span> :  <span>{{ $student->id . '-' . date('Y-m-d') }}</span> </h1>
