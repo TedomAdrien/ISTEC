@@ -470,7 +470,7 @@
                     </button>
                 </div>
 
-                {{-- partie 5 --}}
+               {{-- partie 5 --}}
                 <div id="five" style="display:none">
                     <h2 style="text-align:center; padding-bottom: 16px; padding-top: -16px;"> <u>&Eacute;tape 5 :</u> <span>Parents (Tuteurs)</span></h2>
 
@@ -535,7 +535,6 @@
                                 <span class="text-danger">{{ $message }}</span>
                             @enderror
                         </div>
-
                         <div class="col-md-6">
                             <label for="telephone_autre" class="form-label">Telephone<span style="color: red;"
                                     title="champ obligatoire">*</span></label>
@@ -548,7 +547,6 @@
                     </div>
 
                     <button type="button" onclick="back('four','five')" class="btn btn-secondary"
-
                         style="margin-top:10px; margin-bottom:5px; padding:10px; float:left; font-size:18px; border-radius:20px/20px"
                         value="">
                         Précédent

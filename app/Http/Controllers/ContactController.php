@@ -14,6 +14,6 @@ class ContactController extends Controller
            //$contacts = Contact::all();
 
        // retourner la vue
-           return view('contact.contact');
-}
+            return view('contact.contact');
+ }
 }

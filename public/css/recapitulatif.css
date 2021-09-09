@@ -1,22 +1,19 @@
 body{
     margin: 0;
-    color: rgba(0, 0, 0, 0.75);
     font-family: calibri;
-    overflow-wrap: break-word;
 }
-.contend{
-    width: 60%;
-    padding: 20px;
-    margin: auto;
-    background-color: #fff;
 
+.content{
+    width: 60%;
+    margin:auto;
 }
+
 .center{
     text-align: center;
+    padding:5px;
 }
 .info{
-    width: 80%;
-    margin: auto;
+    
 }
 .flex{
     display: flex;
@@ -28,12 +25,7 @@ body{
 .start{
     justify-content: flex-start;
 }
-.b1{
-    width: 200px;
-}
-.b2{
-    width: 300px;
-}
+
 .b3{
     width: auto;
     margin-right: 10px;
@@ -110,3 +102,9 @@ h2{
     }
 
 }
+ td{
+    padding:12px;   
+   } 
+ tr{
+     padding:8px;
+    }
