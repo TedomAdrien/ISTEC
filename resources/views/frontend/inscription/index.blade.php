@@ -38,10 +38,6 @@
     <div class="container">
         <div class="login100-form validate-form p-l-55 p-r-55 p-t-178 mt-5">
 
-
-            <form class="row g-3" method="POST" action="{{ route('add.student') }}" class="was-validated">
-
-
             <form class="row g-3" method="POST" action="{{ route('add.student') }}" class="was-validated">
 
                 @csrf
@@ -569,14 +565,13 @@
             </form>
         </div>
     </div>
-
-
-
 @endsection
 
+
+
+
+
 @push('js')
-
-
 
 <script>
   // apllication de la partition du formulation en plusieurs page
@@ -584,10 +579,7 @@ function next(parent,child){
   document.getElementById(parent).style.display="none";
   document.getElementById(child).style.display="block";
 }
-function back(parent,child){
-  document.getElementById(parent).style.display="block";
-  document.getElementById(child).style.display="none";
-}
+
 </script>
 
 
