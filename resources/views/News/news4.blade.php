@@ -1,5 +1,5 @@
 @extends('News.News')
-@section('title','News4')
+@section('title','News/4')
 
 @section('toto')
 <section class="probootstrap-section probootstrap-section-colored">
@@ -25,7 +25,7 @@
                     <span class="probootstrap-date"><i class="icon-calendar"></i>14 juillet 2021</span>
                     <span class="probootstrap-location"><i class="icon-location2"></i>Campus ISTEC, derriere Camlait Ndogbong</span>
                   </p>
-                  <p><a href="/News/detail/detaill4" class="btn btn-primary">Plus d'infos</a></p>
+                  <p><a href="/News/detail/4" class="btn btn-primary">Plus d'infos</a></p>
                 </div>
                 <div class="probootstrap-image probootstrap-animate" style="background-image: url(images/image_galery/students.jpg)">
                   </div>

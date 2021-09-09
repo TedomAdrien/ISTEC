@@ -42,6 +42,9 @@ Route::prefix('/inscription')->group(function () {
     Route::get('/pdf/{student}', [TemporyStudentController::class, 'print'])->name('print.fiche_pre_inscription');
 });
 
+
+//Route::get('formation/{cycle}'[CycleController::class, 'index_bts'],)
+//  
 Route::get('/formations', [FormationController::class, 'index']);
 
 // route pour la requettes des cycles bts et hnd
@@ -267,6 +270,8 @@ Route::get('/formations/cycle_bts/OperationAirTransport', function () {
 
 
 /** Route pour les filiéres du MASTER1 */
+
+
 Route::get('/formations/cycle_master/mcp1', function () {
     return view('formation.filiere.mcp1');
 });
@@ -342,37 +347,15 @@ Route::get('/event6/detail6', [Event1Controller::class, 'index_detail6']);
 
 
 /***route pour la requettes des news*/
-Route::get('/News', [NewsController::class, 'index']);
-Route::get('/News/detail/detaill', [NewsController::class, 'index_detail']);
-
-Route::get('/news1', [News1Controller::class, 'index_news1']);
-Route::get('/News/detail/detaill1', [News1Controller::class, 'index_detail1']);
-
-Route::get('/news2', [News1Controller::class, 'index_news2']);
-Route::get('/News/detail/detaill2', [News1Controller::class, 'index_detail2']);
-
-Route::get('/news3', [News1Controller::class, 'index_news3']);
-Route::get('/News/detail/detaill3', [News1Controller::class, 'index_detail3']);
-
-Route::get('/news4', [News1Controller::class, 'index_news4']);
-Route::get('/News/detail/detaill4', [News1Controller::class, 'index_detail4']);
-
-Route::get('/news5', [News1Controller::class, 'index_news5']);
-Route::get('/News/detail/detaill5', [News1Controller::class, 'index_detail5']);
-
-Route::get('/news6', [News1Controller::class, 'index_news6']);
-Route::get('/News/detail/detaill6', [News1Controller::class, 'index_detail6']);
-
-Route::get('/news7', [News1Controller::class, 'index_news7']);
-Route::get('/News/detail/detaill7', [News1Controller::class, 'index_detail7']);
-
-Route::get('/news8', [News1Controller::class, 'index_news8']);
-Route::get('/News/detail/detaill8', [News1Controller::class, 'index_detail8']);
+Route::prefix('/News')->group( function(){
+Route::get('/', function(){
+    return view('News.News');
+});
+Route::get('/{id}', [News1Controller::class, 'returnViewbyid']);
+Route::get('/detail/{id}', [News1Controller::class, 'returnDetailById']);
 
 
-Route::get('/news9', [News1Controller::class, 'index_news9']);
-Route::get('/News/detail/detaill9', [News1Controller::class, 'index_detail9']);
-
+});
 
 
 
