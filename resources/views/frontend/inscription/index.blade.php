@@ -16,8 +16,6 @@
                 <div class="col-md-12 probootstrap-animate">
                     <h1 class="text-center" style="color: #fff">Pré-inscription à ISTEC</h1>
                 </div>
-
-
             </div>
         </div>
 
@@ -469,7 +467,6 @@
                         Suivant
                     </button>
                 </div>
-
                {{-- partie 5 --}}
                 <div id="five" style="display:none">
                     <h2 style="text-align:center; padding-bottom: 16px; padding-top: -16px;"> <u>&Eacute;tape 5 :</u> <span>Parents (Tuteurs)</span></h2>
@@ -577,9 +574,11 @@ function next(parent,child){
   document.getElementById(parent).style.display="none";
   document.getElementById(child).style.display="block";
 }
-
+function back(parent,child){
+  document.getElementById(parent).style.display="block";
+  document.getElementById(child).style.display="none";
+}
 </script>
-
 
 @endpush
 
