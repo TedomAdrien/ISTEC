@@ -44,6 +44,8 @@ Route::prefix('/inscription')->group(function () {
 
 Route::get('/formations', [FormationController::class, 'index']);
 
+// Route::get('formations/{cycle}', [CycleController::class, 'cycle']);
+// Route::get('formations/{cycle}/{formation}', [CycleController::class, 'formation']);
 // route pour la requettes des cycles bts et hnd
 Route::get('/formations/cycle_bts', [CycleController::class, 'index_bts']);
 Route::get('/formations/cycle_licence', [CycleController::class, 'index_licence']);
@@ -405,8 +407,11 @@ Route::get('/galery', [GaleryController::class, 'index']);
 Route::get('/course_singles', [CourseSingleController::class, 'index']);
 
 //contact//
+
 Route::get('/contact', [ContactController::class, 'index']);
 
 //route module inscrition frontend
 
+
 Route::post('',[StudentreRegController::class,'userstore'])->name('add.user');
+

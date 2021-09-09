@@ -38,9 +38,4 @@
           </div>
         </div>
       </section>
-
-
-
-
-
 @endsection

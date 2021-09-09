@@ -9,7 +9,7 @@
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2">
                             <div class="probootstrap-slider-text text-center">
-                                <h1 class="probootstrap-heading probootstrap-animate">Votre Future est notre priorité</h1>
+                                <h1 class="probootstrap-heading probootstrap-animate">Votre Futur est notre priorité</h1>
                             </div>
                         </div>
                     </div>
@@ -158,7 +158,7 @@
             <ul class="nav nav-tabs probootstrap-center probootstrap-tabs no-border">
                 <li class="active"><a data-toggle="tab" href="#featured-news" aria-expanded="true">Actualités à la une</a>
                 </li>
-                <li class=""><a data-toggle="tab" href="#upcoming-events" aria-expanded="false">Evenements à venir</a></li>
+                <li class=""><a data-toggle="tab" href="#upcoming-events" aria-expanded="false">Evènements à venir</a></li>
             </ul>
         </div>
     </section>
@@ -344,8 +344,8 @@
                         <div class="text">
                             <span class="probootstrap-meta"><i class="icon-calendar2"></i> 15,septembre 2021</span>
                             <h3>Genie Logiciel </h3>
-                            <p>L'ingenieri(e) logiciel(e) est une science du genie industrielle qui etudie les methodes de
-                                travails et les bonnes pratiques des ingenieurs qui developpent les logiciels informatiques
+                            <p>L'ingenierie logicielle est une science du génie industrielle qui étudie les méthodes de
+                                travail et les bonnes pratiques des ingenieurs qui développent les logiciels informatiques
                             </p><br>
 
                             <p><a href="/inscription" class="btn btn-primary" style="background:#f4a105;">s'inscrire</a>
@@ -389,7 +389,7 @@
                             <span class="probootstrap-meta"><i class="icon-calendar2"></i> 15,septembre 2021</span>
                             <h3>Genie Civil </h3>
                             <p>Le génie civil est l'art de concevoir et de réaliser des ouvrages d'infrastructures. Il
-                                inclut également les bâtiments,topographie et etc c'est l'un des meilleurs secteurs
+                                inclut également les bâtiments,topographie et etc. C'est l'un des meilleurs secteurs
                                 d'Employabilités </p>
 
                             <p><a href="/inscription" class="btn btn-primary" style="background:#f4a105;">s'inscrire</a>
@@ -506,9 +506,9 @@
                             <p>Contrôleur de gestion</p>
                             <ul class="probootstrap-footer-social">
                                 <li class="twitter"><a href="#"><i class="icon-twitter"></i></a></li>
-                                <li class="facebook"><a href="#"><i class="icon-facebook2"></i></a></li>
+                                <li class="facebook"><a href="https://m.facebook.com/profile.php?id=100010783265031"><i class="icon-facebook2"></i></a></li>
                                 <li class="instagram"><a href="#"><i class="icon-instagram2"></i></a></li>
-                                <li class="google-plus"><a href="#"><i class="icon-google-plus"></i></a></li>
+                                <li class="google-plus"><a href="mailto: ntedbilogmoise@gmail.com"><i class="icon-google-plus"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -541,11 +541,11 @@
                                     <img src="{{ asset('images/home-images/romuald.jpg') }}"
                                         style="width: 100%; height: 100%;">
                                 </figure>
-                                <quote class="quote">&ldquo;... j'ai acquis beaucoup de compétences dans le domaine de
+                                <quote class="quote">&ldquo;... J'ai acquis beaucoup de compétences dans le domaine de
                                     l'entrepreunariat et du developpement web a l'ISTEC.je suis euphorique car je peux deja
-                                    voler de mes propres ailles dans multiples dommaines,je remercie sur le cadre
-                                    administratifs et les enseignants de nous avoir donnes le meilleur de l'enseignement
-                                    tout le long de mon apprenstissage. merci l'ISTEC &rdquo; <br> <cite class="author">
+                                    voler de mes propres ailes dans multiples dommaines,je remercie sur le cadre
+                                    administratifs et les enseignants de nous avoir donne le meilleur de l'enseignement
+                                    tout le long de mon apprenstissage. Merci l'ISTEC &rdquo; <br> <cite class="author">
                                         &mdash; <span>Touko Romuald</span></cite></quote>
 
                             </div>
@@ -560,7 +560,7 @@
                                 <quote class="quote">&ldquo;J’ai obtenu beaucoup de bagages intellectuels dans le domaine du
                                     developpement web a l'ISTEC. Ainsi, je me sens compétent pour apporter mon aide à la
                                     professionnalisation des industries de technologie.Nous avons eu la chance d’avoir des
-                                    enseignants qualifié qui nous ont tenus durant notre periode d'études. Une expérience
+                                    enseignants qualifiés qui nous ont tenu durant notre periode d'études. Une expérience
                                     inoubliable. &rdquo; <br> <cite class="author"> &mdash;<span>Tedom Adrien</span></cite>
                                 </quote>
 
@@ -573,9 +573,9 @@
                                     <img src="{{ asset('images/images_formations/juni1.jpg') }}"
                                         style="width: 100%; height: 100%;">
                                 </figure>
-                                <quote class="quote">&ldquo;Les professeurs d'ISTEC m'ont aidés à améliorer mes compétences
+                                <quote class="quote">&ldquo;Les professeurs d'ISTEC m'ont aidé à améliorer mes compétences
                                     et à développer une certaine autonomie dans l'apprentissage.Cette université n'est peut
-                                    etre pas parfaite mais grace à elle, j'ai maintenant confiance en mes compétences et
+                                    être pas parfaite mais grâce à elle, j'ai maintenant confiance en mes compétences et
                                     qualités de programmeur/développeur ! (^_^).
                                     &rdquo; <br> <cite class="author">&mdash; <span>Junior Ledoux</span></cite></quote>
                             </div>
