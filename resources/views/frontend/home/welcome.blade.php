@@ -658,19 +658,19 @@
 
                 <div class="item" >
                    <figure>
-                    <img src="images/image-pat/print.jpg" style="width: 50%; height: 200px;margin:auto">
+                    <img src="images/image-pat/print.jpg" style="width: 55%; height: 205px;margin:auto">
                     </figure>
                     </div>
                 
                 <div class="item" >
                     <figure>
-                    <img src="images/image-pat/tropik.png"  style="width: 50%; height: 200px;margin:auto">
+                    <img src="images/image-pat/tropik.jpg"  style="width: 50%; height: 200px;margin:auto">
                     </figure>
                     </div>
 
                 <div class="item"  >
                    <figure>
-                    <img src="images/image-pat/eneo.png" style="width: 50%; height: 200px;margin:auto">
+                    <img src="images/image-pat/eneo.jpg" style="width: 50%; height: 200px;margin:auto">
                     </figure>
                   </div>
 
@@ -682,7 +682,7 @@
 
                   <div class="item"  >
                    <figure>
-                   <img src="images/image-pat/dschang.png" style="width: 50%; height: 200px;margin:auto">
+                   <img src="images/image-pat/dschang.jpg" style="width: 50%; height: 200px;margin:auto">
                     </figure>
                   </div>
 
