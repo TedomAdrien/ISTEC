@@ -44,7 +44,7 @@
                     <div class="col-md-6">
                         <label for="inputname" class="form-label">Nom<span style="color: red;"
                                 title="champ obligatoire">*</span></label>
-                        <input type="text" class="form-control" id="name" name="name" value="{{ old('name') }}">
+                        <input type="text" class="form-control" id="name" name="first_name" value="{{ old('first_name') }}">
                         @error('first_name')
                             <span class="text-danger">{{ $message }}</span>
                         @enderror
