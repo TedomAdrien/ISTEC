@@ -638,10 +638,9 @@
             </form>
         </div>
     </div>
+@endsection
 
 @push('js')
-
-
 <script>
   // apllication de la partition du formulation en plusieurs page
 function next(parent,child){
