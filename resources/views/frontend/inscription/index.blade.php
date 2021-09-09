@@ -172,14 +172,6 @@
                         style="margin-top:10px; margin-bottom:5px; padding:10px; float:right; font-size:18px; border-radius:20px/20px"
                         value="">Suivant</button>
                 </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> 8fc1b0f4f02c72bb11b9a7b1d143b7c5c97635f6
-=======
-
->>>>>>> 2ed5797e13cf1dcb535e3e59d86f2b03262b9a62
                 {{-- partie 2 --}}
                 <div id="second" style="margin-top: 20px; display:none;">
                     <h2 style="text-align:center; padding-bottom: 16px; padding-top: -16px;"> <u>&Eacute;tape 2 :</u>
@@ -456,7 +448,7 @@
                 </div>
 
                 {{-- partie 5 --}}
-                <div id="five" style="display:none">
+                <!-- <div id="five" style="display:none">
                     <h2 style="text-align:center; padding-bottom: 16px; padding-top: -16px;"> <u>&Eacute;tape 5 :</u> <span>Parents (Tuteurs)</span></h2>
 
                     <div style="float:left; padding:0 8px; width:50%;">
@@ -544,7 +536,7 @@
                         value="">
                         Suivant
                     </button>
-                </div>
+                </div> -->
 
                 {{-- partie 5 --}}
                 <div id="five" style="display:none">
@@ -635,11 +627,7 @@
             </form>
         </div>
     </div>
-<<<<<<< HEAD
-
-=======
 @endsection
->>>>>>> 8fc1b0f4f02c72bb11b9a7b1d143b7c5c97635f6
 
 @push('js')
 
