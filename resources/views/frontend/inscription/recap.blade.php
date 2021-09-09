@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">p
+    <meta charset="UTF-8">
      <!-- CSS only -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <!-- JavaScript Bundle with Popper -->
@@ -14,7 +14,7 @@
 </head>
  <body>
   <div style="width:300px; margin:auto;">
-    <h1 class="center">FICHE D'INSCRIPTION  <span class="italic" >N<sup>o</sup></span> :  <span>{{ $student->id . '-' . date('Y-m-d') }}</span> </h1>
+    <h2 class="center">FICHE D'INSCRIPTION  <span class="italic" >N<sup>o</sup></span> : {{ $student->id.'-'.date('Y-m-d') }}</h1>
 
     <div class="ifo">
         <h4 class="italic underline serif">INFORMATIONS PERSONNELLES :</h4>
@@ -23,13 +23,13 @@
                 <tr>
                     <td > Filière : {{ $student->formation }}</td>
                     <td > Specialite: {{ $student->specialites }}</td>
-                    <td > Niveau :{{ $student->niveau }}</td>
+                    <td style="width: 115px;"> Niveau :{{ $student->niveau }}</td>
                 </tr>
                 @if($student->genre === 'Masculin')
                 <tr>
                     <td>Titre : M :<span style="font-weight: bold"> X</td>
                     <td> Mlle: .....</td>
-                    <td> Mme .....</td>          
+                    <td style="width: 115px;"> Mme .....</td>          
                 </tr>
                 @elseif($student->genre === 'Feminin' && $student->statut === 'Marié(e)')
                 <tr>
