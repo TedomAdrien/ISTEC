@@ -141,7 +141,6 @@
 					</p>
 				</div>
 			</div>
-
 			<div class="info border-b">
 				<h4 class="italic underline serif">
 					DIPLÔMES ET ANNÉES D'OBTENTION :
@@ -199,7 +198,6 @@
 					dans le cadre de l'examen.
 				</p>
 			</div>
-
 			<div class="info center">
 				<a
 					href="{{ route('print.fiche_pre_inscription', $student) }}"

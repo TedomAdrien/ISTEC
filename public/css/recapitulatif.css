@@ -136,3 +136,5 @@ h2 {
 		width: 100%;
 	}
 }
+
+.table .td .tr{border:1px black;}
