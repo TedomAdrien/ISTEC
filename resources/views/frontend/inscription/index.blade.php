@@ -150,7 +150,7 @@
                     <div class="col-md-6">
 
                         <label for="telephone " class="form-label">Telephone</label>
-                        <input type="text" id="telephone" class="form-control" placeholder="+XXX XXXXXXXXX"
+                        <input type="text" id="telephone" class="form-control" placeholder="692775509"
                             name="phone_number" value="{{ old('phone_number') }}">
                         @error('phone_number')
 
@@ -202,7 +202,7 @@
                         <select id="inputniveau" class="form-control" name="niveau" value="{{ old('niveau') }}">
                             <option>Choose...</option>
                             <option value="1" {{ (old('niveau') === '1') ? 'selected' : '' }}>1</option>
-                            <option value="2" {{ (old('niveau') === '2') ? 'selected' : '' }}>1</option>
+                            <option value="2" {{ (old('niveau') === '2') ? 'selected' : '' }}>2</option>
                             <option value="3" {{ (old('niveau') === '3') ? 'selected' : '' }}>3</option>
                             <option value="4" {{ (old('niveau') === '4') ? 'selected' : '' }}>4</option>
                             <option value="5" {{ (old('niveau') === '5') ? 'selected' : '' }}>5</option>
@@ -490,7 +490,7 @@
                         <div class="col-md-12">
                             <label for="telephone " class="form-label">Telephone<span style="color: red;"
                                     title="champ obligatoire">*</span></label>
-                            <input type="text" id="telephone" class="form-control" placeholder="+XXX XXXXXXXXX"
+                            <input type="text" id="telephone" class="form-control" placeholder="692775509"
                                 name="telephone_parent" value="{{ old('telephone_parent') }}">
                             @error('telephone_parent')
                                 <span class="text-danger">{{ $message }}</span>
@@ -527,7 +527,7 @@
                         <div class="col-md-6">
                             <label for="telephone_autre" class="form-label">Telephone<span style="color: red;"
                                     title="champ obligatoire">*</span></label>
-                            <input type="text" id="telephone_autre" class="form-control" placeholder="+XXX XXXXXXXXX"
+                            <input type="text" id="telephone_autre" class="form-control" placeholder="692775509"
                                 name="telephone_autre" value="{{ old('telephone_autre') }}">
                             @error('telephone_autre')
                                 <span class="text-danger">{{ $message }}</span>
