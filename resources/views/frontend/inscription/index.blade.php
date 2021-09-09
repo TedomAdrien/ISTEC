@@ -459,7 +459,7 @@
                 </div>
 
                 {{-- partie 5 --}}
-                <div id="five" style="display:none">
+                <!-- <div id="five" style="display:none">
                     <h2 style="text-align:center; padding-bottom: 16px; padding-top: -16px;"> <u>&Eacute;tape 5 :</u> <span>Parents (Tuteurs)</span></h2>
 
                     <div style="float:left; padding:0 8px; width:50%;">
@@ -547,7 +547,7 @@
                         value="">
                         Suivant
                     </button>
-                </div>
+                </div> -->
 
                 {{-- partie 5 --}}
                 <div id="five" style="display:none">
