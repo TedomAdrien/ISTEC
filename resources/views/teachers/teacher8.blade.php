@@ -38,20 +38,5 @@
         </div>
       </section>
 
-<<<<<<< HEAD
-      <section class="probootstrap-cta">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <h2 class="probootstrap-animate" data-animate-effect="fadeInRight">Obtenez votre admission maintenant!</h2>
-              <a href="/inscription" role="button" class="btn btn-primary btn-lg btn-ghost probootstrap-animate" data-animate-effect="fadeInLeft">S'inscrire</a>
-            </div>
-          </div>
-        </div>
-      </section>
-=======
->>>>>>> 2ed5797e13cf1dcb535e3e59d86f2b03262b9a62
-
-
 
 @endsection
