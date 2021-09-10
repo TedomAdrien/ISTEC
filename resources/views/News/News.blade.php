@@ -10,8 +10,9 @@
 
           <div class="row">
             <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate fadeInUp probootstrap-animated">
-              <a href="/news1" class="probootstrap-featured-news-box">
-                <figure class="probootstrap-media"><img src="images/image_galery/pb1.jpg"  class="img-responsive" style="width: 360px;height: 230px;"></figure>
+              <a href="{{asset('News/1')}}" class="probootstrap-featured-news-box">
+                <span></span>
+                <figure class="probootstrap-media"><img src="{{asset('images/image_galery/pb1.jpg')}}"  class="img-responsive" style="width: 360px;height: 230px;"></figure>
                 <div class="probootstrap-text">
                   <h3>ISTEC CADEAUX</h3>
                     <i><p>gagne un laptop   PBHER si tu payes la premier tranche avant le 29 septembre</p></i>   
@@ -25,9 +26,10 @@
               </a>
             </div>
             <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate fadeInUp probootstrap-animated">
-              <a href="/news2" class="probootstrap-featured-news-box">
+              <a href="{{asset('News/2')}}" class="probootstrap-featured-news-box">
+                <span></span>
 
-                <figure class="probootstrap-media"><img src="images/image_galery/images.jpg" style="width: 360px;height: 230px;"class="img-responsive"></figure>
+                <figure class="probootstrap-media"><img src="{{asset('images/image_galery/images.jpg')}}" style="width: 360px;height: 230px;"class="img-responsive"></figure>
                 <div class="probootstrap-text">
                   <h3>ISTEC t'offre un cadeau</h3>
                   <i><p>Comme moi inscris toi avant le 20 septembre 2021 et beneficis de nombreux cadeaux </p></i>
@@ -41,8 +43,9 @@
             </div>
             <div class="clearfix visible-sm-block visible-xs-block"></div>
             <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate fadeInUp probootstrap-animated">
-              <a href="/news3" class="probootstrap-featured-news-box">
-                <figure class="probootstrap-media"><img src="images/image-news/n3.jpg" class="img-responsive" style="width: 360px;height: 230px;"></figure>
+              <a href="{{asset('News/3')}}" class="probootstrap-featured-news-box">
+                <span></span>
+                <figure class="probootstrap-media"><img src="{{asset('images/image-news/n3.jpg')}}" class="img-responsive" style="width: 360px;height: 230px;"></figure>
                 <div class="probootstrap-text">
                   <h3>INSCRIPTIION</h3>
 
@@ -58,8 +61,8 @@
           <div class="row">
             <div class="row">
               <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate fadeInUp probootstrap-animated">
-                <a href="/news4" class="probootstrap-featured-news-box">
-                  <figure class="probootstrap-media"><img src="images/image_galery/students.jpg"  class="img-responsive" style="width: 361px;height: 239px;"></figure>
+                <a href="{{asset('News/4')}}" class="probootstrap-featured-news-box">
+                  <figure class="probootstrap-media"><img src="{{asset('images/image_galery/students.jpg')}}"  class="img-responsive" style="width: 361px;height: 239px;"></figure>
                   <div class="probootstrap-text">
 
                     <h3>📚remise a niveau des etudiants inscris au niveau 2</h3>
@@ -71,8 +74,8 @@
                 </a>
               </div>
               <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate fadeInUp probootstrap-animated">
-                <a href="/news5" class="probootstrap-featured-news-box">
-                  <figure class="probootstrap-media"><img src="images/image-news/n5.JPG"  class="img-responsive" style="width: 360px;height: 230px;"></figure>
+                <a href="{{asset('News/5')}}" class="probootstrap-featured-news-box">
+                  <figure class="probootstrap-media"><img src="{{asset('images/image-news/n5.jpg')}}"  class="img-responsive" style="width: 360px;height: 230px;"></figure>
                   <div class="probootstrap-text">
 
                     <h3>INITIATION AU DEVELOPPEMENT WEB</h3>
@@ -86,8 +89,8 @@
               </div>
               <div class="clearfix visible-sm-block visible-xs-block"></div>
               <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate fadeInUp probootstrap-animated">
-                <a href="/news6" class="probootstrap-featured-news-box">
-                  <figure class="probootstrap-media"><img src="images/image-news/t.JPG"  class="img-responsive" style="width: 360px;height: 230px;"></figure>
+                <a href="{{asset('News/6')}}" class="probootstrap-featured-news-box">
+                  <figure class="probootstrap-media"><img src="{{asset('images/image-news/t.JPG')}}"  class="img-responsive" style="width: 360px;height: 230px;"></figure>
                   <div class="probootstrap-text">
                     <h3>STAGE ACADÉMIQUE</h3>
                     <p style="margin:0px;">conception du site web d'ISTEC et d'application web de gestions du contenue du site ,des étudiants et du personnels par les étudiants du niveau 1</p>
@@ -102,8 +105,8 @@
             <div class="clearfix visible-md-block"></div>
 
             <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate fadeInUp probootstrap-animated">
-              <a href="/news7" class="probootstrap-featured-news-box">
-                <figure class="probootstrap-media"><img src="images/image-news/n4.jpg"  class="img-responsive" style="width: 360px;height: 230px;"></figure>
+              <a href="{{asset('News/7')}}" class="probootstrap-featured-news-box">
+                <figure class="probootstrap-media"><img src="{{asset('images/image-news/n4.jpg')}}"  class="img-responsive" style="width: 360px;height: 230px;"></figure>
                 <div class="probootstrap-text">
                   <h3>INITIATION A L'INFORMATIQUE </h3>
                    <p>formation en Bureautique & Infographie<p>
@@ -117,8 +120,8 @@
             </div>
             <div class="clearfix visible-sm-block visible-xs-block"></div>
             <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate fadeInUp probootstrap-animated">
-              <a href="/news8" class="probootstrap-featured-news-box">
-                <figure class="probootstrap-media"><img src="images/image-news/12.jpeg"  class="img-responsive" style="width: 360px;height: 230px;"></figure>
+              <a href="{{asset('News/8')}}" class="probootstrap-featured-news-box">
+                <figure class="probootstrap-media"><img src="{{asset('images/image-news/12.jpeg')}}"  class="img-responsive" style="width: 360px;height: 230px;"></figure>
                 <div class="probootstrap-text">
 
                   <h3>JOURNEE ORIENTATION SCOLAIRE</h3>
@@ -134,6 +137,7 @@
             </div>
            
           </div>
+          
             <div class="clearfix visible-sm-block visible-xs-block"></div>
 
           </div>

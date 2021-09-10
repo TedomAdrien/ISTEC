@@ -9,7 +9,6 @@
 @endpush
 
 @section('content')
-
     <section class="probootstrap-section probootstrap-section-colored">
         <div class="container">
             <div class="row">
