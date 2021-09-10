@@ -16,15 +16,9 @@
                 <div class="col-md-12 probootstrap-animate">
                     <h1 class="text-center" style="color: #fff">Pré-inscription à ISTEC</h1>
                 </div>
-            </div>
-        </div>
-
-      </section>
-*
 
             </div>
         </div>
-
     </section>
     <div class="container center">
         @if(session('echec'))
@@ -35,9 +29,7 @@
     </div>
     <div class="container">
         <div class="login100-form validate-form p-l-55 p-r-55 p-t-178 mt-5">
-
             <form class="row g-3" method="POST" action="{{ route('add.student') }}" class="was-validated">
-
                 @csrf
                 {{-- partie 1 --}}
                 <div id="first">
@@ -147,7 +139,6 @@
                             <div>
                                 <label id="genre">Feminin</label>
                                 <input id="genre" type="radio" name="sex" value="Feminin" {{ (old('sex') === 'Feminin') ? 'checked' : '' }}>
-
                             </div>
                         </div>
                         @error('sex')
@@ -159,7 +150,7 @@
                     <div class="col-md-6">
 
                         <label for="telephone " class="form-label">Telephone</label>
-                        <input type="text" id="telephone" class="form-control" placeholder="692775509"
+                        <input type="text" id="telephone" class="form-control" placeholder="+XXX XXXXXXXXX"
                             name="phone_number" value="{{ old('phone_number') }}">
                         @error('phone_number')
 
@@ -186,7 +177,6 @@
                         value="">Suivant</button>
                 </div>
 
-
                 {{-- partie 2 --}}
                 <div id="second" style="margin-top: 20px; display:none;">
                     <h2 style="text-align:center; padding-bottom: 16px; padding-top: -16px;"> <u>&Eacute;tape 2 :</u>
@@ -212,7 +202,7 @@
                         <select id="inputniveau" class="form-control" name="niveau" value="{{ old('niveau') }}">
                             <option>Choose...</option>
                             <option value="1" {{ (old('niveau') === '1') ? 'selected' : '' }}>1</option>
-                            <option value="2" {{ (old('niveau') === '2') ? 'selected' : '' }}>2</option>
+                            <option value="2" {{ (old('niveau') === '2') ? 'selected' : '' }}>1</option>
                             <option value="3" {{ (old('niveau') === '3') ? 'selected' : '' }}>3</option>
                             <option value="4" {{ (old('niveau') === '4') ? 'selected' : '' }}>4</option>
                             <option value="5" {{ (old('niveau') === '5') ? 'selected' : '' }}>5</option>
@@ -467,7 +457,8 @@
                         Suivant
                     </button>
                 </div>
-               {{-- partie 5 --}}
+
+                       {{-- partie 5 --}}
                 <div id="five" style="display:none">
                     <h2 style="text-align:center; padding-bottom: 16px; padding-top: -16px;"> <u>&Eacute;tape 5 :</u> <span>Parents (Tuteurs)</span></h2>
 
@@ -499,7 +490,7 @@
                         <div class="col-md-12">
                             <label for="telephone " class="form-label">Telephone<span style="color: red;"
                                     title="champ obligatoire">*</span></label>
-                            <input type="text" id="telephone" class="form-control" placeholder="692775509"
+                            <input type="text" id="telephone" class="form-control" placeholder="+XXX XXXXXXXXX"
                                 name="telephone_parent" value="{{ old('telephone_parent') }}">
                             @error('telephone_parent')
                                 <span class="text-danger">{{ $message }}</span>
@@ -535,7 +526,7 @@
                         <div class="col-md-6">
                             <label for="telephone_autre" class="form-label">Telephone<span style="color: red;"
                                     title="champ obligatoire">*</span></label>
-                            <input type="text" id="telephone_autre" class="form-control" placeholder="692775509"
+                            <input type="text" id="telephone_autre" class="form-control" placeholder="+XXX XXXXXXXXX"
                                 name="telephone_autre" value="{{ old('telephone_autre') }}">
                             @error('telephone_autre')
                                 <span class="text-danger">{{ $message }}</span>
@@ -548,26 +539,17 @@
                         value="">
                         Précédent
                     </button>
-
                     <button type="submit" class="btn btn-primary "
                         style="margin-top:10px; margin-bottom:5px; padding:10px; float:right; font-size:18px; border-radius:20px/20px;background-color:green;">
                         Valider
                     </button>
-                </div>
-
-             
                 </div>
             </form>
         </div>
     </div>
 @endsection
 
-
-
-
-
 @push('js')
-
 <script>
   // apllication de la partition du formulation en plusieurs page
 function next(parent,child){
@@ -581,5 +563,3 @@ function back(parent,child){
 </script>
 
 @endpush
-
-

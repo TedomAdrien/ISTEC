@@ -15,7 +15,7 @@ class News1Controller extends Controller
         $news1 = News1::all();
 
         // retourner la vue
-        return view('News.news1', compact('news1'));
+        return view('news.news1', compact('news1'));
     }
 
     public function index_detail1()
@@ -25,7 +25,7 @@ class News1Controller extends Controller
         $news1 = News1::all();
 
         // retourner la vue
-        return view('News.detail.detaill1', compact('news1'));
+        return view('news.detail.detaill1', compact('news1'));
     }
     public function index_news2()
     {
@@ -34,7 +34,7 @@ class News1Controller extends Controller
         $news2 = News1::all();
 
         // retourner la vue
-        return view('News.news2', compact('news2'));
+        return view('news.news2', compact('news2'));
     }
 
     public function index_detail2()
@@ -44,7 +44,7 @@ class News1Controller extends Controller
         $news2 = News1::all();
 
         // retourner la vue
-        return view('News.detail.detaill2', compact('news2'));
+        return view('news.detail.detaill2', compact('news2'));
     }
 
     public function index_news3()
@@ -54,7 +54,7 @@ class News1Controller extends Controller
         $news3 = News1::all();
 
         // retourner la vue
-        return view('News.news3', compact('news3'));
+        return view('news.news3', compact('news3'));
     }
 
     public function index_detail3()
@@ -64,7 +64,7 @@ class News1Controller extends Controller
         $news3 = News1::all();
 
         // retourner la vue
-        return view('News.detail.detaill3', compact('news3'));
+        return view('news.detail.detaill3', compact('news3'));
     }
 
     public function index_news4()
@@ -74,7 +74,7 @@ class News1Controller extends Controller
         $news4 = News1::all();
 
         // retourner la vue
-        return view('News.news4', compact('news4'));
+        return view('news.news4', compact('news4'));
     }
 
     public function index_detail4()
@@ -84,7 +84,7 @@ class News1Controller extends Controller
         $news4 = News1::all();
 
         // retourner la vue
-        return view('News.detail.detaill4', compact('news4'));
+        return view('news.detail.detaill4', compact('news4'));
     }
 
     public function index_news5()
@@ -94,7 +94,7 @@ class News1Controller extends Controller
         $news5 = News1::all();
 
         // retourner la vue
-        return view('News.news5', compact('news5'));
+        return view('news.news5', compact('news5'));
     }
 
     public function index_detail5()
@@ -104,7 +104,7 @@ class News1Controller extends Controller
         $news5 = News1::all();
 
         // retourner la vue
-        return view('News.detail.detaill5', compact('news5'));
+        return view('news.detail.detaill5', compact('news5'));
     }
 
     public function index_news6()
@@ -114,7 +114,7 @@ class News1Controller extends Controller
         $news6 = News1::all();
 
         // retourner la vue
-        return view('News.news6', compact('news6'));
+        return view('news.news6', compact('news6'));
     }
 
     public function index_detail6()
@@ -124,7 +124,7 @@ class News1Controller extends Controller
         $news6 = News1::all();
 
         // retourner la vue
-        return view('News.detail.detaill6', compact('news6'));
+        return view('news.detail.detaill6', compact('news6'));
     }
     
     public function index_news7()
@@ -134,7 +134,7 @@ class News1Controller extends Controller
         $news7 = News1::all();
 
         // retourner la vue
-        return view('News.news7', compact('news7'));
+        return view('news.news7', compact('news7'));
     }
 
     public function index_detail7()
@@ -144,7 +144,7 @@ class News1Controller extends Controller
         $news7 = News1::all();
 
         // retourner la vue
-        return view('News.detail.detaill7', compact('news7'));
+        return view('news.detail.detaill7', compact('news7'));
     }
     
     public function index_news8()
@@ -154,7 +154,7 @@ class News1Controller extends Controller
         $news8 = News1::all();
 
         // retourner la vue
-        return view('News.news8', compact('news8'));
+        return view('news.news8', compact('news8'));
     }
 
     public function index_detail8()
@@ -164,7 +164,7 @@ class News1Controller extends Controller
         $news8 = News1::all();
 
         // retourner la vue
-        return view('News.detail.detaill8', compact('news8'));
+        return view('news.detail.detaill8', compact('news8'));
     }
     
     public function index_news9()
@@ -174,7 +174,7 @@ class News1Controller extends Controller
         $news9 = News1::all();
 
         // retourner la vue
-        return view('News.news9', compact('news9'));
+        return view('news.news9', compact('news9'));
     }
 
     public function index_detail9()
@@ -184,7 +184,7 @@ class News1Controller extends Controller
         $news9 = News1::all();
 
         // retourner la vue
-        return view('News.detail.detaill9', compact('news9'));
+        return view('news.detail.detaill9', compact('news9'));
     }
     
 }
