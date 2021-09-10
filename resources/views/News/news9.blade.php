@@ -1,5 +1,5 @@
 
-@extends('News.News')
+@extends('news.news')
 @section('title','news9')
 
 @section('toto')
@@ -35,12 +35,7 @@
             </div>
           </div>
         </div>
-      </section>
-
-
-    @endsection
-
-
+   @endsection
 
 
 

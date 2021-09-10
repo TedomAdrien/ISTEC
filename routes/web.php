@@ -409,13 +409,9 @@ Route::get('/course_singles', [CourseSingleController::class, 'index']);
 //contact//
 
 Route::get('/contact', [ContactController::class, 'index']);
-Route::post('/contact/send-message', [ContactController::class, 'store'])->name('add.message');
-
 
 //route module inscrition frontend
 
-
-Route::post('',[StudentreRegController::class,'userstore'])->name('add.student');
 
 Route::post('',[StudentreRegController::class,'userstore'])->name('add.user');
 

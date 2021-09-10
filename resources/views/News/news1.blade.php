@@ -1,4 +1,4 @@
-@extends('News.News')
+@extends('news.news')
 @section('title','News1')
 @section('toto')
 
