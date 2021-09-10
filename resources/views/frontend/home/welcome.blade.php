@@ -174,7 +174,7 @@
                                 <div class="col-md-12">
                                     <div class="owl-carousel" id="owl1">
                                         <div class="item">
-                                            <a href="/news1" class="probootstrap-featured-news-box">
+                                            <a href="News/1" class="probootstrap-featured-news-box">
                                                 <figure class="probootstrap-media"><img src="{{ asset('images/image-news/gift1.jpg') }}"
                                                         alt="cadea" class="img-responsive" style="height: 282px"></figure>
                                                 <div class="probootstrap-text">
@@ -193,7 +193,7 @@
                                         </div>
                                         <!-- END item -->
                                         <div class="item">
-                                            <a href="/news7" class="probootstrap-featured-news-box">
+                                            <a href="News/7" class="probootstrap-featured-news-box">
                                                 <figure class="probootstrap-media"><img src="{{ asset('images/image-news/news7.jpg') }}"
                                                         alt="happy video" class="img-responsive" style="height: 282px">
                                                 </figure>
@@ -211,7 +211,7 @@
                                         </div>
                                         <!-- END item -->
                                         <div class="item">
-                                            <a href="/news3" class="probootstrap-featured-news-box">
+                                            <a href="News/3" class="probootstrap-featured-news-box">
                                                 <figure class="probootstrap-media"><img src="{{ asset('images/image-news/smiller.jpg') }}"
                                                         alt="Début des inscriptions" class="img-responsive" style="height: 282px"></figure>
                                                 <div class="probootstrap-text">
@@ -227,7 +227,7 @@
                                         </div>
                                         <!-- END item -->
                                         <div class="item">
-                                            <a href="/news4" class="probootstrap-featured-news-box">
+                                            <a href="News/4" class="probootstrap-featured-news-box">
                                                 <figure class="probootstrap-media"><img  src="{{ asset('images/image_galery/gallery11.jpg') }}"
                                                         alt="Remise a niveau" class="img-responsive" style="height: 282px"></figure>
                                                 <div class="probootstrap-text">
@@ -248,7 +248,7 @@
                             <!-- END row -->
                             <div class="row">
                                 <div class="col-md-12 text-center">
-                                    <p><a href="/News" class="btn btn-primary">Voir toutes les actualités</a></p>
+                                    <p><a href="/" class="btn btn-primary">Voir toutes les actualités</a></p>
                                 </div>
                             </div>
                         </div>
@@ -644,32 +644,112 @@
         </div>
       </section> --}}
 
-    <section class="probootstrap-cta" style="background: white">
+
+<!-- partie des partenaires -->
+<section class="probootstrap-section probootstrap-bg probootstrap-section-colored" style="background-color:#ED0000;padding:24px; ">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <marquee loop="-1" style="display:block;" scrollamount="15" scrolldelay="15">
-                        <div class="partner" style="width: 10%; float: left;">
-                            <a href="#"><img src="{{ asset('images/image-pat/dschang.png') }}" style="width: 100%" alt="Partner Image"></a>
-                        </div>
-                        <div class="partner" style="width: 10%;float: left;">
-                            <a href="#"><img src="{{ asset('images/image-pat/cecaw.png') }}" style="width: 100%"></a>
-                        </div>
-                        <div class="partner" style="width: 10%;float: left;">
-                            <a href="#"><img src="{{ asset('images/image-pat/eneo.png') }}" alt="Partner Image" style="width: 100%"></a>
-                        </div>
-                        <div class="partner" style="width: 10%;background-color: green;float: left;">
-                            <a href="#"><img src="{{ asset('images/image-pat/tropik.png') }}" alt="Partner Image"
-                                    style="width: 100%;float: left;"> </a>
-                        </div>
-                        <div class="partner" style="width: 10% ;background-color: red; float: left;">
-                            <a href="#"><img src="{{ asset('images/image-pat/print.jpg') }}" style="width: 100%" alt="Partner Image"></a>
-                        </div>
-                    </marquee>
-                </div>
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center section-heading probootstrap-animate" >
+            
             </div>
-        </div>
-    </section>
+          </div>
+          <h1 style="text-align:center;font-size:40px;color:#FFFFFF"><b> NOS PARTENAIRES</b> </h1>
+          <div class="row">
+            <div class="col-md-12 probootstrap-animate">
+              <div class="owl-carousel owl-carousel-testimony owl-carousel-fullwidth">
+
+                <div class="item" >
+                   <figure>
+                    <img src="images/image-pat/print.jpg" style="width: 55%; height: 205px;margin:auto">
+                    </figure>
+                    </div>
+                
+                <div class="item" >
+                    <figure>
+                    <img src="images/image-pat/tropik.jpg"  style="width: 50%; height: 200px;margin:auto">
+                    </figure>
+                    </div>
+
+                <div class="item"  >
+                   <figure>
+                    <img src="images/image-pat/eneo.jpg" style="width: 50%; height: 200px;margin:auto">
+                    </figure>
+                  </div>
+
+                  <div class="item" >
+                   <figure>
+                   <img src="images/image-pat/cecaw.png" style="width: 50%; height: 200px;margin:auto">
+                    </figure>
+                  </div>
+
+                  <div class="item"  >
+                   <figure>
+                   <img src="images/image-pat/dschang.jpg" style="width: 50%; height: 200px;margin:auto">
+                    </figure>
+                  </div>
+
+                  
+                  <div class="item" >
+                   <figure>
+                   <img src="images/image-pat/agc conseil.png" style="width: 50%; height: 200px;margin:auto">
+                    </figure>
+                  </div>
+
+                  
+                  <div class="item" >
+                   <figure>
+                   <img src="images/image-pat/CGI.png" style="width: 50%; height: 200px;margin:auto">
+                    </figure>
+                  </div>
+
+                  
+                  <div class="item" >
+                   <figure>
+                   <img src="images/image-pat/ifage.jpeg" style="width: 50%; height: 200px;margin:auto">
+                    </figure>
+                  </div>
+
+                   
+                  <div class="item" >
+                   <figure>
+                   <img src="images/image-pat/jupiner.jpg" style="width: 50%; height: 200px;margin:auto">
+                    </figure>
+                  </div>
+
+                   
+                  <div class="item" >
+                   <figure>
+                   <img src="images/image-pat/logobio_2-01.png" style="width: 50%; height: 200px;margin:auto">
+                    </figure>
+                  </div>
+
+                   
+                  <div class="item" >
+                   <figure>
+                   <img src="images/image-pat/minesup.jpg" style="width: 50%; height: 200px;margin:auto">
+                    </figure>
+                  </div>
+
+                  <div class="item" >
+                   <figure>
+                   <img src="images/image-pat/gms.png" style="width: 50%;height: 200px;margin:auto">
+                    </figure>
+                  </div>
+
+                  <div class="item" >
+                   <figure>
+                   <img src="images/image-pat/reseau ex.png" style="width: 50%;height: 200px;margin:auto">
+                    </figure>
+                  </div>
+
+                  <div class="item" >
+                   <figure>
+                   <img src="images/image-pat/logo_udo.jpg" style="width: 50%;height: 200px;margin:auto">
+                    </figure>
+                  </div>
+
+
+   
 
     <section class="probootstrap-cta" style="background: #f4a105;">
         <div class="container">

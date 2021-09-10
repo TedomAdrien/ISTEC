@@ -9,7 +9,6 @@ body {
 	width: 75%;
 	padding: 10px;
 	margin: auto;
-	background-color: rgba(127, 255, 212, 0.22);
 }
 .center {
 	text-align: center;
@@ -136,3 +135,9 @@ h2 {
 		width: 100%;
 	}
 }
+ td{
+    padding:12px;   
+   } 
+ tr{
+     padding:8px;
+    }
