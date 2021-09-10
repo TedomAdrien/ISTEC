@@ -651,7 +651,7 @@
             
             </div>
           </div>
-          
+          <h1 style="text-align:center;font-size:40px;color:#FFFFFF"><b> NOS PARTENAIRES</b> </h1>
           <div class="row">
             <div class="col-md-12 probootstrap-animate">
               <div class="owl-carousel owl-carousel-testimony owl-carousel-fullwidth">
