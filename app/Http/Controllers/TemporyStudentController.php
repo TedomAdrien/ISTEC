@@ -90,7 +90,7 @@ class TemporyStudentController extends Controller
 
             return view('frontend.inscription.recapitulatif', compact('student', 'parent', 'other_parent'))->with('success', 'Pré-inscription enregistrée !');
         } catch (\Exception $e) {
-            return redirect()->back()->with('echec', 'Echec lors de l\'inscrition, veuillez re-éssayer...');
+            return redirect()->back()->with('echec', 'Echec lors de l\'inscrition, veuillez re-éssayer...')->withInput();
         }
     }
 
