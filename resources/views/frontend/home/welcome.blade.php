@@ -747,6 +747,12 @@
                    <img src="images/image-pat/logo_udo.jpg" style="width: 50%;height: 200px;margin:auto">
                     </figure>
                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 
    
