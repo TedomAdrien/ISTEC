@@ -174,7 +174,7 @@
                                 <div class="col-md-12">
                                     <div class="owl-carousel" id="owl1">
                                         <div class="item">
-                                            <a href="/news1" class="probootstrap-featured-news-box">
+                                            <a href="News/1" class="probootstrap-featured-news-box">
                                                 <figure class="probootstrap-media"><img src="{{ asset('images/image-news/gift1.jpg') }}"
                                                         alt="cadea" class="img-responsive" style="height: 282px"></figure>
                                                 <div class="probootstrap-text">
@@ -193,7 +193,7 @@
                                         </div>
                                         <!-- END item -->
                                         <div class="item">
-                                            <a href="/news7" class="probootstrap-featured-news-box">
+                                            <a href="News/7" class="probootstrap-featured-news-box">
                                                 <figure class="probootstrap-media"><img src="{{ asset('images/image-news/news7.jpg') }}"
                                                         alt="happy video" class="img-responsive" style="height: 282px">
                                                 </figure>
@@ -211,7 +211,7 @@
                                         </div>
                                         <!-- END item -->
                                         <div class="item">
-                                            <a href="/news3" class="probootstrap-featured-news-box">
+                                            <a href="News/3" class="probootstrap-featured-news-box">
                                                 <figure class="probootstrap-media"><img src="{{ asset('images/image-news/smiller.jpg') }}"
                                                         alt="Début des inscriptions" class="img-responsive" style="height: 282px"></figure>
                                                 <div class="probootstrap-text">
@@ -227,7 +227,7 @@
                                         </div>
                                         <!-- END item -->
                                         <div class="item">
-                                            <a href="/news4" class="probootstrap-featured-news-box">
+                                            <a href="News/4" class="probootstrap-featured-news-box">
                                                 <figure class="probootstrap-media"><img  src="{{ asset('images/image_galery/gallery11.jpg') }}"
                                                         alt="Remise a niveau" class="img-responsive" style="height: 282px"></figure>
                                                 <div class="probootstrap-text">
@@ -248,7 +248,7 @@
                             <!-- END row -->
                             <div class="row">
                                 <div class="col-md-12 text-center">
-                                    <p><a href="/News" class="btn btn-primary">Voir toutes les actualités</a></p>
+                                    <p><a href="/" class="btn btn-primary">Voir toutes les actualités</a></p>
                                 </div>
                             </div>
                         </div>

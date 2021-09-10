@@ -24,8 +24,8 @@
         <div class="j_flex">
             <div class="center j_block_sec">
                 <div class="j_flex_content j_radius_reverse">
-                    <a href="/formations/cycle_bts" class="j_ablock_relative j_radius_reverse">
-                        <img src="images/images_formations/h.jpg" alt="h.jpg" class="j_img_radius j_radius_reverse">
+                    <a href="{{asset('/formations/cycle_bts')}}" class="j_ablock_relative j_radius_reverse">
+                        <img src="{{asset('images/images_formations/h.jpg')}}" alt="h.jpg" class="j_img_radius j_radius_reverse">
                         <div class="j_block_flot">
                              <i class="fas fa-hand-rock"></i>
                         </div>
