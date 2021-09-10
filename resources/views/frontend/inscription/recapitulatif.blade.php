@@ -135,9 +135,23 @@
 						>
 					</p>
 				</div>
+                <div>
+                    <p>
+                        	Email :
+							<span> <em> {{ $student->email }} </em></span></span
+						>
+                    </p>
+                </div>
 				<div>
-					<p>
-						Email : <span><em>{{ $student->email }}</em></span>
+					<p class="flex spacebetween">
+                        <span class="b2">
+                            Connu/Parrainé par :
+                            <span> <em> {{ $student->parrain }} </em></span></span
+                        >
+						<span class="b2">
+							Téléphone du parrain :
+							<span> <em> {{ $student->phone_number_parrain }} </em></span></span
+						>
 					</p>
 				</div>
 			</div>

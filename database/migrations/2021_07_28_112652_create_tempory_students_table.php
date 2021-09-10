@@ -21,7 +21,7 @@ class CreateTemporyStudentsTable extends Migration
             $table->string('NoCNI');
             $table->date('birthdate');
             $table->string('lieu_naissance')->nullable();
-            $table->string('ville_residence')->nullable();
+            $table->string('ville_residence');
             $table->string('pays')->nullable();
             $table->string('origin_region')->nullable();
             $table->string('sex');
@@ -38,6 +38,8 @@ class CreateTemporyStudentsTable extends Migration
             $table->string('situation_passe')->nullable();
             $table->string('date_arrive_fac')->nullable();
             $table->string('typeuniv')->nullable();
+            $table->string('parrain');
+            $table->string('phone_number_parrain')->nullable();
             $table->string('professional_activity')->nullable();
             $table->string('loisir1')->nullable();
             $table->string('loisir2')->nullable();

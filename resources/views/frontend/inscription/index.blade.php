@@ -90,7 +90,8 @@
                     </div>
 
                     <div class="col-md-6">
-                        <label for="ville_residence" class="form-label"> Ville de residence </label>
+                        <label for="ville_residence" class="form-label"> Ville de residence<span style="color: red;"
+                                title="champ obligatoire">*</span></label>
                         <input type="text" id="ville_residence" class="form-control" name="ville_residence" value="{{ old('ville_residence') }}">
                         @error('ville_residence')
                             <span class="text-danger">{{ $message }}</span>
@@ -142,7 +143,7 @@
                     <div class="col-md-6">
                         <label for="inputsituationmat" class="form-label">Situation Matrimoniale</label>
                         <select id="inputsituationmat" class="form-control" name="statut">
-                            <option>Choose...</option>
+                            <option>Choose.......</option>
                             <option value="Marié(e)" {{ (old('statut') === 'Marié(e)') ? 'selected' : '' }}>Marié(e)</option>
                             <option value="Celibataire" {{ (old('statut') === 'Celibataire') ? 'selected' : '' }}>Célibataire</option>
                             <option value="Divorcé(e)" {{ (old('statut') === 'Divorcé(e)') ? 'selected' : '' }}>Divorcé(e)</option>
@@ -151,10 +152,11 @@
                             <span class="text-danger">{{ $message }}</span>
                         @enderror
                     </div>
-
-                    <button type="button" onclick="next('first','second')" class="btn btn-primary"
+                    <div class="col-md-12">
+                        <button type="button" onclick="next('first','second')" class="btn btn-primary"
                         style="margin-top:10px; margin-bottom:5px; padding:10px; float:right; font-size:18px; border-radius:20px/20px"
                         value="">Suivant</button>
+                    </div>
                 </div>
                 {{-- partie 2 --}}
                 <div id="second" style="margin-top: 20px; display:none;">
@@ -169,9 +171,10 @@
                             <option value="BTS" {{ (old('cycle') === 'BTS') ? 'selected' : '' }}>BTS</option>
                             <option value="HND" {{ (old('cycle') === 'HND') ? 'selected' : '' }}>HND</option>
                             <option value="Licence" {{ (old('cycle') === 'Licence') ? 'selected' : '' }}>Licence</option>
+                            <option value="Master" {{ (old('cycle') === 'Master') ? 'selected' : '' }}>Master</option>
                         </select>
                         @error('cycle')
-                            <span class="text-danger">{{ $message }}</span>
+                            <span class="text-danger" id="error_cycle">{{ $message }}</span>
                         @enderror
                     </div>
                     <div class="col-md-6">
@@ -186,7 +189,7 @@
                             <option value="5" {{ (old('niveau') === '5') ? 'selected' : '' }}>5</option>
                         </select>
                         @error('niveau')
-                            <span class="text-danger">{{ $message }}</span>
+                            <span class="text-danger" id="error_niveau">{{ $message }}</span>
                         @enderror
                     </div>
 
@@ -199,7 +202,7 @@
                             <option value="Filiere Commercial" {{ (old('formation') === 'Filiere Commercial') ? 'selected' : '' }}>Filiere Commercial</option>
                         </select>
                         @error('formation')
-                            <span class="text-danger">{{ $message }}</span>
+                            <span class="text-danger" id="error_formation">{{ $message }}</span>
                         @enderror
                     </div>
 
@@ -254,7 +257,7 @@
                         @enderror
                     </div>
 
-                    <div class="col-md-12">
+                    <div class="col-md-6">
                         <label for="etabobt " class="form-label">Etablissement d'obtention <span style="color: red;"
                                 title="champ obligatoire">*</span></label>
                         <input type="text" id="etabobt" class="form-control" name="etablissement" value="{{ old('etablissement') }}">
@@ -263,7 +266,7 @@
                         @enderror
                     </div>
 
-                    <div>
+                    <div class="col-md-12">
                         <button type="button" onclick="back('first','second')" class="btn btn-secondary "
                             style="margin-top:10px; margin-bottom:5px; padding:10px; float:left; font-size:18px; border-radius:20px/20px"
                             value="">
@@ -321,6 +324,24 @@
                     </div>
 
                     <div class="col-md-6">
+                        <label for="parrain " class="form-label">Comment avez-vous ou par qui avez-vous connus ISTEC ? <span style="color: red;"
+                                title="champ obligatoire">*</span></label>
+                        <input type="text" id="parrain" class="form-control" name="parrain" value="{{ old('parrain') }}">
+                        @error('parrain')
+                            <span class="text-danger">{{ $message }}</span>
+                        @enderror
+                    </div>
+
+                     <div class="col-md-6">
+                        <label for="phone_number_parrain " class="form-label">Si possible son numéro de téléphone</label>
+                        <input type="text" id="phone_number_parrain" class="form-control" placeholder="692775509"
+                            name="phone_number_parrain" value="{{ old('phone_number_parrain') }}">
+                        @error('phone_number_parrain')
+                            <span class="text-danger">{{ $message }}</span>
+                        @enderror
+                    </div>
+
+                    <div class="col-md-6">
                         <label for="actprof">Avez vous une acitivite professionnelle ?</label>
                         <div style="display: flex">
                             <div style="margin-right: 20px">
@@ -334,16 +355,18 @@
                         </div>
                     </div>
 
-                    <button type="button" onclick="back('second','tree')" class="btn btn-secondary "
+                    <div class="col-md-12">
+                        <button type="button" onclick="back('second','tree')" class="btn btn-secondary "
                         style="margin-top:10px; margin-bottom:5px; padding:10px; float:left; font-size:18px; border-radius:20px/20px"
                         value="">
                         Précédent
-                    </button>
-                    <button type="button" onclick="next('tree','four')" class="btn btn-primary "
+                        </button>
+                        <button type="button" onclick="next('tree','four')" class="btn btn-primary "
                         style="margin-top:10px; margin-bottom:5px; padding:10px; float:right; font-size:18px; border-radius:20px/20px"
                         value="">
                         Suivant
-                    </button>
+                        </button>
+                    </div>
                 </div>
 
                 {{-- partie 4 --}}
@@ -412,25 +435,27 @@
                         </div>
                     </div>
 
-                    <button type="button" onclick="back('tree','four')" class="btn btn-secondary "
-                        style="margin-top:10px; margin-bottom:5px; padding:10px; float:left; font-size:18px; border-radius:20px/20px"
-                        value="">
-                        Précédent
-                    </button>
-                    <button type="button" onclick="next('four','five')" class="btn btn-primary "
-                        style="margin-top:10px; margin-bottom:5px; padding:10px; float:right; font-size:18px; border-radius:20px/20px; "
-                        value="">
-                        Suivant
-                    </button>
+                    <div class="col-md-12">
+                        <button type="button" onclick="back('tree','four')" class="btn btn-secondary "
+                            style="margin-top:10px; margin-bottom:5px; padding:10px; float:left; font-size:18px; border-radius:20px/20px"
+                            value="">
+                            Précédent
+                        </button>
+                        <button type="button" onclick="next('four','five')" class="btn btn-primary "
+                            style="margin-top:10px; margin-bottom:5px; padding:10px; float:right; font-size:18px; border-radius:20px/20px; "
+                            value="">
+                            Suivant
+                        </button>
+                    </div>
                 </div>
 
                 {{-- partie 5 --}}
                 <div id="five" style="display:none">
                     <h2 style="text-align:center; padding-bottom: 16px; padding-top: -16px;"> <u>&Eacute;tape 5 :</u> <span>Parents (Tuteurs)</span></h2>
 
-                    <div style="float:left; padding:0 8px; width:50%;">
-                        <h5>PARENTS (TUTEURS)</h5>
-                        <div class="col-md-12">
+                    <div>
+                        <h5>PARENTS OU TUTEURS</h5>
+                        <div class="col-md-6">
                             <label for="inputname" class="form-label">Nom<span style="color: red;"
                                     title="champ obligatoire">*</span></label>
                             <input type="text" class="form-control" id="inputname" name="name_parent" value="{{ old('name_parent') }}">
@@ -438,7 +463,7 @@
                                 <span class="text-danger">{{ $message }}</span>
                             @enderror
                         </div>
-                        <div class="col-md-12">
+                        <div class="col-md-6">
                             <label for="inputlastname" class="form-label">Prénom<span style="color: red;"
                                     title="champ obligatoire">*</span></label>
                             <input type="text" class="form-control" id="inputlastname" name="lastname_parent" value="{{ old('lastname_parent') }}">
@@ -446,37 +471,35 @@
                                 <span class="text-danger">{{ $message }}</span>
                             @enderror
                         </div>
-                        <div class="col-md-12">
+                        <div class="col-md-6">
                             <label for="ville_residence " class="form-label"> Ville de residence </label>
                             <input type="text" id="ville_residence" class="form-control" name="ville_resid_parent" value="{{ old('ville_resid_parent') }}">
                             @error('ville_resid_parent')
                                 <span class="text-danger">{{ $message }}</span>
                             @enderror
                         </div>
-                        <div class="col-md-12">
+                        <div class="col-md-6">
                             <label for="telephone " class="form-label">Telephone<span style="color: red;"
                                     title="champ obligatoire">*</span></label>
                             <input type="text" id="telephone" class="form-control" placeholder="692775509"
-                                name="telephone_parent" value="{{ old('telephone_parent') }}">
+                                name="telephone_parent" value="{{ old('telephone_parent') }}" >
                             @error('telephone_parent')
                                 <span class="text-danger">{{ $message }}</span>
                             @enderror
                         </div>
                     </div>
-
-                    <div>
+                    
+                    <div> 
                         <h5>AUTRE</h5>
                         <div class="col-md-6">
-                            <label for="name_autre" class="form-label">Nom<span style="color: red;"
-                                    title="champ obligatoire">*</span></label>
+                            <label for="name_autre" class="form-label">Nom</label>
                             <input type="text" class="form-control" id="name_autre" name="name_autre" value="{{ old('name_autre') }}">
                             @error('name_autre')
                                 <span class="text-danger">{{ $message }}</span>
                             @enderror
                         </div>
                         <div class="col-md-6">
-                            <label for="lastname_autre" class="form-label">Prénom<span style="color: red;"
-                                    title="champ obligatoire">*</span></label>
+                            <label for="lastname_autre" class="form-label">Prénom</label>
                             <input type="text" class="form-control" id="lastname_autre" name="lastname_autre" value="{{ old('lastname_autre') }}">
                             @error('lastname_autre')
                                 <span class="text-danger">{{ $message }}</span>
@@ -491,25 +514,27 @@
                         </div>
 
                         <div class="col-md-6">
-                            <label for="telephone_autre" class="form-label">Telephone<span style="color: red;"
-                                    title="champ obligatoire">*</span></label>
+                            <label for="telephone_autre" class="form-label">Telephone</label>
                             <input type="text" id="telephone_autre" class="form-control" placeholder="692775509"
-                                name="telephone_autre" value="{{ old('telephone_autre') }}">
+                                name="telephone_autre" value="{{ old('telephone_autre') }}" >
                             @error('telephone_autre')
                                 <span class="text-danger">{{ $message }}</span>
                             @enderror
                         </div>
                     </div>
 
-                    <button type="button" onclick="back('four','five')" class="btn btn-secondary"
-                        style="margin-top:10px; margin-bottom:5px; padding:10px; float:left; font-size:18px; border-radius:20px/20px"
-                        value="">
-                        Précédent
-                    </button>
-                    <button type="submit" class="btn btn-primary "
-                        style="margin-top:10px; margin-bottom:5px; padding:10px; float:right; font-size:18px; border-radius:20px/20px;background-color:green;">
-                        Valider
-                    </button>
+                    <div class="col-md-12">
+                        <button type="button" onclick="back('four','five')" class="btn btn-secondary"
+                            style="margin-top:10px; margin-bottom:5px; padding:10px; float:left; font-size:18px; border-radius:20px/20px"
+                            value="">
+                            Précédent
+                        </button>
+                        <button type="submit" class="btn btn-primary "
+                            style="margin-top:10px; margin-bottom:5px; padding:10px; float:right; font-size:18px; border-radius:20px/20px;background-color:green;">
+                            Valider
+                        </button>
+                    </div>
+
                 </div>
             </form>
         </div>
