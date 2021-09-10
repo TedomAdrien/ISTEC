@@ -1,4 +1,4 @@
-@extends('News.News')
+@extends('news.news')
 @section('title','news3')
 @section('toto')
 <section class="probootstrap-section probootstrap-section-colored">

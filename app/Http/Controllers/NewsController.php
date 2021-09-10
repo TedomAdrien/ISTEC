@@ -16,7 +16,7 @@ class NewsController extends Controller
            $news = News::all();
 
        // retourner la vue
-           return view('News.News', compact('news'));
+           return view('news.news', compact('news'));
 
 
 
