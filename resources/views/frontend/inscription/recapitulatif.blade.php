@@ -75,7 +75,7 @@
 
     <div class="info border-b">
         <h4 class="italic underline serif center ">DIPLÔMES ET ANNÉES D'OBTENTION :</h4>
-        <table class="table-responsive" style="width:75%;">
+        <table class="table-responsive" >
            <tbody>
            <tr>
                 <td > Diplôme : {{ $student->diplome }}</td>
