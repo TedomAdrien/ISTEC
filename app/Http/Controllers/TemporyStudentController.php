@@ -20,23 +20,25 @@ class TemporyStudentController extends Controller
             'NoCNI' => 'required|min:9',
             'birthdate' => 'required|date',
             'lieu_naissance' => 'required|min:3',
-            'ville_residence' => 'nullable|min:3',
+            'ville_residence' => 'required|min:3',
             'pays' => 'nullable|min:3',
             'origin_region' => 'nullable|min:3',
             'sex' => 'required',
-            'phone_number' => 'nullable|min:9|unique:tempory_students',
-            'statut' => 'nullable',
-            'cycle' => 'required',
-            'niveau' => 'required',
-            'formation' => 'required',
+            'phone_number' => 'nullable|required|min:9|unique:tempory_students',
+            'statut' => 'nullable|max:11',
+            'cycle' => 'required|max:7',
+            'niveau' => 'required|max:1',
+            'formation' => 'required|min:10',
             'specialites' => 'required|min:3',
             'diplome' => 'required|min:3',
-            'date_obtention' => 'required',
+            'date_obtention' => 'required|max:4',
             'pays_obtention' => 'required|min:3',
             'etablissement' => 'required|min:3',
             'situation_passe' => 'nullable',
             'date_arrive_fac' => 'nullable',
             'typeuniv' => 'nullable',
+            'parrain' => 'required|min:3',
+            'phone_number_parrain' => 'nullable|min:9',
             'professional_activity' => 'nullable',
             'loisir1' => 'nullable',
             'loisir2' => 'nullable',
@@ -44,12 +46,21 @@ class TemporyStudentController extends Controller
             'sport_activity' => 'nullable',
             'name_parent' => 'required|min:3',
             'lastname_parent' => 'required|min:3',
-            'ville_resid_parent' => 'nullable|min:3',
+            'ville_resid_parent' => 'required|min:3',
             'telephone_parent' => 'required|min:8',
             'name_autre' => 'nullable|min:3',
             'lastname_autre' => 'nullable|min:3',
             'ville_resid_autre' => 'nullable|min:3',
             'telephone_autre' => 'nullable|min:8',
+        ],
+        [
+             'cycle.max' => 'veuillez selectionner un cycle',
+            'niveau.max' => 'veuillez selectionner un niveau',
+            'formation.min' => 'veuillez selectionner un cycle',
+            'specialites.min' => 'veuillez entrer une spécialité correcte',
+            'date_obtention.max' => 'veuillez selectionner une date correcte',
+            'statut.max' => 'veuillez indiquer votre statut',
+
         ]);
 
         try {
@@ -79,7 +90,6 @@ class TemporyStudentController extends Controller
 
             return view('frontend.inscription.recapitulatif', compact('student', 'parent', 'other_parent'))->with('success', 'Pré-inscription enregistrée !');
         } catch (\Exception $e) {
-            //throw $th;
             return redirect()->back()->with('echec', 'Echec lors de l\'inscrition, veuillez re-éssayer...');
         }
     }

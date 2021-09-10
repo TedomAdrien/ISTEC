@@ -19,7 +19,6 @@
         <div class="e1"><img src="{{asset('/images/home-images/Logo.png')}}" style="width:60px; height: 60px;"></div>
     </div>
     <h1 class="center">FICHE D'INSCRIPTION  <span class="italic" >N<sup>o</sup></span> :  <span>{{ $student->id . '-' . date('Y-m-d') }}</span> </h1>
-
     <div class="io">
         <h4 class="italic underline serif center">INFORMATIONS PERSONNELLES :</h4>
         <table class="table-responsive" style="width:75%;">
@@ -68,6 +67,13 @@
                     <td > Télephone personnel : {{ $student->phone_number }}</td> 
                     <td >Télephone parent : {{ $parent->phone_number }} {{ (!is_null($other_parent) && !is_null($other_parent->phone_number)) ? '/' . $other_parent->phone_number : '' }}
                     </td>       
+                </tr>
+                <tr>
+                    <td >	Email : {{ $student->email }}></td>      
+                </tr>
+                 <tr>
+                    <td > Connu/Parrainé par : {{ $student->parrain }}</td> 
+                    <td >Téléphone du parrain : {{ $student->phone_number_parrain }} </td>       
                 </tr>
             </tbody>
         </table>
