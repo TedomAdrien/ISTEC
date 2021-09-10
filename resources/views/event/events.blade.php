@@ -30,8 +30,7 @@
 
                 </div>
                 <div class="probootstrap-image probootstrap-animate" style="background-image: url(/images/image_galery/gallery23.jpg)">
-                  <!--<a href="https://vimeo.com/45830194" class="btn-video popup-vimeo"><i class="icon-play3"></i></a>-->
-                </div>
+                  </div>
               </div>
             </div>
           </div>
@@ -45,32 +44,7 @@
         <div class="container">
 
           <div class="row">
-            <!-- <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate">
-              <a f="event1" class="probootstrap-featured-news-box">
-                <figure class="probootstrap-media"><img src="images/image_Events/pro3.jpg" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive"></figure>
-                <div class="probootstrap-text">
-                  <h3>Une rémise à niveau pour les Etudiants du Niveau 2</h3>
-                  <span class="probootstrap-date"><i class="icon-calendar"></i>Septembre 5, 2021</span>
-
-                  <span class="probootstrap-location"><i class="icon-location2"></i>ISTEC, derrière Camlait Ndogbong</span>
-
-                </div>
-              </a>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate">
-              <a f="event2" class="probootstrap-featured-news-box">
-                <figure class="probootstrap-media"><img src="images/image_Events/pro1.jpg" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive"></figure>
-                <div class="probootstrap-text">
-                  <h3>Un match de Gala Etudiants vs Professeurs</h3>
-                  <span class="probootstrap-date"><i class="icon-calendar"></i>Septembre 30, 2021</span>
-
-                  <span class="probootstrap-location"><i class="icon-location2"></i>ISTEC, derrière Camlait Ndogbong</span>
-               </div>
-              </a>
-            </div>
-            
-          <div class="clearfix visible-md-block"></div> -->
-            
+           
             <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 probootstrap-animate">
               <a href="#" class="probootstrap-featured-news-box">
                 <figure class="probootstrap-media"><img src="images/image_galery/don.jpg"  class="img-responsive"></figure>
