@@ -23,7 +23,7 @@
                   <div class="text-uppercase probootstrap-uppercase">Filières phares</div>
                   <h3>Comptabilité Et Gestion D'Entreprise</h3>
                   <p>Responsable en comptabilité, capable d'organiser la gestion des obligations comptables, fiscales et sociales, de participer à l'élaboration  des informations de gestion et contribuer aux prévisions et à la préparation des décisions.</p>
-                  <p><a href="/inscription" class="btn btn-primary">s'inscrire</a> <span class="enrolled-count">2,928 students enrolled</span></p>
+                  <p><a href="/inscription" class="btn btn-primary">s'inscrire</a> <span class="enrolled-count">25 etudiants inscrits</span></p>
                 </div>
                 <div class="probootstrap-image probootstrap-animate" style="background-image: url(img/slider_3.jpg)">
                   <a href="{{ asset('images/images_formations/g.jpg') }}" class="btn-video"><i class="icon-play3"></i> <img src="{{ asset('images/images_formations/g.jpg') }}" style="width: 100%; height: 100%; "></a>
@@ -48,7 +48,7 @@
                   <span class="probootstrap-meta"><i class="icon-calendar2"></i> September 06, 2021</span>
                   <h3>Logistique Et Transport</h3>
                   <p>Responsable de l'organisation et du management des opérations de transport et des prestations logistiques sur les marchés locaux, régionaux, nationaux et internationaux.</p>
-                  <p><a href="/inscription" class="btn btn-primary">s'inscrire</a> <span class="enrolled-count">2,928 étudiants inscrits</span></p>
+                  <p><a href="/inscription" class="btn btn-primary">s'inscrire</a> <span class="enrolled-count">31 etudiants inscrits</span></p>
                 </div>
               </div>
 
@@ -62,7 +62,7 @@
                   <span class="probootstrap-meta"><i class="icon-calendar2"></i> September 06, 2021</span>
                   <h3>Assistant Manager</h3>
                   <p>Collaborateurs des directeurs généraux, des directeurs d'unités ou des chefs de services. Organisés, rigoureux, dynamiques, discrets, ils soutiennent, facilitent et suivent le travail du responsable afin de le rendre plus éfficace.</p>
-                  <p><a href="/inscription" class="btn btn-primary">s'inscrire</a> <span class="enrolled-count">7,202 étudiants inscrits</span></p>
+                  <p><a href="/inscription" class="btn btn-primary">s'inscrire</a> <span class="enrolled-count">18 étudiants inscrits</span></p>
                 </div>
               </div>
 
@@ -78,7 +78,7 @@
                   <span class="probootstrap-meta"><i class="icon-calendar2"></i> September 06, 2021</span>
                   <h3>Genie Logiciel</h3>
                   <p>Spécialistes capable de développer des applications informatiques dans divers domaines, en faisant appel à leurs capacités d’étude du besoin, d’analyse et de codage.</p>
-                  <p><a href="/inscription" class="btn btn-primary">s'inscrire</a> <span class="enrolled-count">12,582 étudiants inscrits</span></p>
+                  <p><a href="/inscription" class="btn btn-primary">s'inscrire</a> <span class="enrolled-count">21 étudiants inscrits</span></p>
                 </div>
               </div>
 
@@ -92,7 +92,7 @@
                   <span class="probootstrap-meta"><i class="icon-calendar2"></i> September 06, 2021</span>
                   <h3>Electrotechnique</h3>
                   <p>Spécialistes de l’étude, de la mise en œuvre, de l’utilisation et de la maintenance des équipements électriques, capable d’intervenir dans la conception, la réalisation et la gestion de systèmes électrotechniques.</p>
-                  <p><a href="/inscription" class="btn btn-primary">s'inscrire</a> <span class="enrolled-count">9,582 students enrolled</span></p>
+                  <p><a href="/inscription" class="btn btn-primary">s'inscrire</a> <span class="enrolled-count">17 students enrolled</span></p>
                 </div>
               </div>
 
@@ -111,7 +111,7 @@
                   <span class="probootstrap-meta"><i class="icon-calendar2"></i> September 06, 2021</span>
                   <h3>Management</h3>
                   <p>Professionals who are going to pursue careers in areas of investment analysis and management, banking, and auditing, consulting and financial management.</p>
-                  <p><a href="/inscription" class="btn btn-primary">s'inscrire</a> <span class="enrolled-count">2,928 étudiants inscrits</span></p>
+                  <p><a href="/inscription" class="btn btn-primary">s'inscrire</a> <span class="enrolled-count">13 étudiants inscrits</span></p>
                 </div>
               </div>
 
@@ -125,7 +125,7 @@
                   <span class="probootstrap-meta"><i class="icon-calendar2"></i> September 06, 2021</span>
                   <h3>Batiment</h3>
                   <p>Spécialistes du bâtiment, disposant de solides connaissances dans l’ensemble des techniques d’une construction neuve ou d’une réhabilitation, ainsi que dans le processus de réalisation d’un ouvrage.</p>
-                  <p><a href="/inscription" class="btn btn-primary">S'inscrire</a> <span class="enrolled-count">7,202 étudiants inscrits</span></p>
+                  <p><a href="/inscription" class="btn btn-primary">S'inscrire</a> <span class="enrolled-count">15 étudiants inscrits</span></p>
                 </div>
               </div>
 
@@ -141,7 +141,7 @@
                   <span class="probootstrap-meta"><i class="icon-calendar2"></i> September 06, 2021</span>
                   <h3>Gestion De La Qualité</h3>
                   <p>Spécialistes assurant la qualité des biens et services dans le cadre de l'amélioration de la performance en termes de coût, qualité et délai afin de satisfaire aux exigences des clients.</p>
-                  <p><a href="inscription" class="btn btn-primary">S'inscrire</a> <span class="enrolled-count">12,582 étudiants inscrits</span></p>
+                  <p><a href="inscription" class="btn btn-primary">S'inscrire</a> <span class="enrolled-count">12 étudiants inscrits</span></p>
                 </div>
               </div>
 
@@ -155,7 +155,7 @@
                   <span class="probootstrap-meta"><i class="icon-calendar2"></i> September 06, 2021</span>
                   <h3>Topographie</h3>
                   <p>Experts en relevés métriques sur le terrain et capable de traiter ces données avec l'équipement approprié dans le but d'élaborer des plans et des cartes, et fournissant un travail de qualité dans le respect des règles de sécurité</p>
-                  <p><a href="inscription" class="btn btn-primary">S'inscrire</a> <span class="enrolled-count">9,582 étudiants inscrits</span></p>
+                  <p><a href="inscription" class="btn btn-primary">S'inscrire</a> <span class="enrolled-count">22 étudiants inscrits</span></p>
                 </div>
               </div>
 
@@ -184,7 +184,7 @@
                 </figure>
                 <div class="text">
                   <h3>Dr SIMO</h3>
-                  <p>Directeur Académique</p>
+                  <p>Directrice Académique</p>
                   <ul class="probootstrap-footer-social">
                     <li class="twitter"><a href="#"><i class="icon-twitter"></i></a></li>
                     <li class="facebook"><a href="#"><i class="icon-facebook2"></i></a></li>
@@ -197,7 +197,7 @@
             <div class="col-md-3 col-sm-6">
               <div class="probootstrap-teacher text-center probootstrap-animate">
                 <figure class="media">
-                  <img src="{{ asset('images/images_formations/n.jpg') }}" style="width: 100%; height: 100%;" class="img-responsive">
+                  <img src="{{ asset('images/image_galery/gallery7.jpg') }}" style="width: 100%; height: 100%;" class="img-responsive">
                 </figure>
                 <div class="text">
                   <h3>Mxlle ARIANNE</h3>
@@ -215,11 +215,11 @@
             <div class="col-md-3 col-sm-6">
               <div class="probootstrap-teacher text-center probootstrap-animate">
                 <figure class="media">
-                  <img src="{{ asset('images/images_formations/o.jpg') }}" style="width: 100%; height: 100%;" class="img-responsive">
+                  <img src="{{ asset('images/image_galery/gallery36.jpg') }}" style="width: 100%; height: 100%;" class="img-responsive">
                 </figure>
                 <div class="text">
-                  <h3>Mr NGUEMKAM</h3>
-                  <p>Ingénieur Réseau</p>
+                  <h3>Mr SERAPHIN</h3>
+                  <p>Responsable Cellule informatique</p>
                   <ul class="probootstrap-footer-social">
                     <li class="twitter"><a href="#"><i class="icon-twitter"></i></a></li>
                     <li class="facebook"><a href="#"><i class="icon-facebook2"></i></a></li>
@@ -232,7 +232,7 @@
             <div class="col-md-3 col-sm-6">
               <div class="probootstrap-teacher text-center probootstrap-animate">
                 <figure class="media">
-                  <img src="{{ asset('images/images_formations/p.jpg') }}" style="width: 100%; height: 100%;" class="img-responsive">
+                  <img src="{{ asset('images/image_galery/gallery35.jpg') }}" style="width: 100%; height: 100%;" class="img-responsive">
                 </figure>
                 <div class="text">
                   <h3>Mme ALLIANCE</h3>

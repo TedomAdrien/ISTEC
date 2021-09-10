@@ -1,6 +1,5 @@
 @extends('News.News')
-@section('title','news6')
-
+@section('title','news/6')
 @section('toto')
 <section class="probootstrap-section probootstrap-section-colored">
         <div class="container">
@@ -29,7 +28,7 @@
                     <span class="probootstrap-date"><i class="icon-calendar"></i>Aout 30, 2021</span>
                     <span class="probootstrap-location"><i class="icon-location2"></i>Campus ISTEC, derriere Camlait Ndogbong</span>
                   </p>
-                  <p><a href="/News/detail/detaill6" class="btn btn-primary">👉🏼 Apprendre encore plus</a></p>
+                  <p><a href="/News/detail/6" class="btn btn-primary">👉🏼 Apprendre encore plus</a></p>
                 </div>
                 <div class="probootstrap-image probootstrap-animate" style="background-image: url(images/image-news/t.JPG)">
                </div>
