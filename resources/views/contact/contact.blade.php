@@ -62,6 +62,7 @@
               <span><i class="icon-location2" style="color:#f4a105;"></i>Ndogbong, Douala, Cameroun</span>
               <span><i class="icon-phone2" style="color:#f4a105;"></i>+237 699 683 903 / 656 793 328</span>
               <span><i class="icon-mail" style="color:#f4a105;"></i><a href="mailto:istec.cmr@gmail.com">istec.cmr@gmail.com</a></span>
+              
             </div>
             <div class="col-lg-3 col-md-3 col-sm-3 probootstrap-top-social">
               <ul>
