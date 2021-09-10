@@ -9,14 +9,20 @@
 @endpush
 
 @section('content')
+<<<<<<< HEAD
+=======
 
+>>>>>>> 2cf12e401790e7a70f45fa2c2edc76b65319ca60
     <section class="probootstrap-section probootstrap-section-colored">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 probootstrap-animate">
                     <h1 class="text-center" style="color: #fff">Pré-inscription à ISTEC</h1>
                 </div>
+<<<<<<< HEAD
+=======
 
+>>>>>>> 2cf12e401790e7a70f45fa2c2edc76b65319ca60
             </div>
         </div>
     </section>

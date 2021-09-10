@@ -140,7 +140,7 @@
                     <li><a href="/teachers">Enseignants</a></li>
                   <li><a href="/courses">Filières</a></li>
                   <li><a href="/teachers">Professeurs</a></li>
-                  <li><a href="/News">Actualités</a></li>
+                  <li><a href="/">Actualités</a></li>
                   <li><a href="/contact">Contact</a></li>
                 </ul>
               </div>
