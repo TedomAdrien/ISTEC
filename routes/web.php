@@ -42,7 +42,9 @@ Route::prefix('/inscription')->group(function () {
     Route::get('/pdf/{student}', [TemporyStudentController::class, 'print'])->name('print.fiche_pre_inscription');
 });
 
-Route::get('/formations', [FormationController::class, 'index']);
+Route::get('/formations', function() {
+    return view('formation.formation');
+});
 
 // Route::get('formations/{cycle}', [CycleController::class, 'cycle']);
 // Route::get('formations/{cycle}/{formation}', [CycleController::class, 'formation']);
